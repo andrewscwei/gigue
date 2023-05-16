@@ -3,6 +3,7 @@
   "version": "0.2.0",
   "description": "Micro CSS library",
   "main": "build/gigue.css",
+  "unpkg": "build/gigue.css",
   "scripts": {
     "clean": "rimraf build",
     "build": "postcss src/main.css -o build/gigue.css",
