@@ -1,0 +1,80 @@
+.ftl {
+  bottom: unset;
+  left: 0;
+  margin: 0;
+  right: unset;
+  top: 0;
+  position: fixed;
+}
+
+.ftc {
+  bottom: unset;
+  left: 0;
+  margin: 0 auto;
+  right: 0;
+  top: 0;
+  position: fixed;
+}
+
+.ftr {
+  bottom: unset;
+  left: unset;
+  margin: 0;
+  right: 0;
+  top: 0;
+  position: fixed;
+}
+
+.fcl {
+  bottom: 0;
+  left: 0;
+  margin: auto 0;
+  right: unset;
+  top: 0;
+  position: fixed;
+}
+
+.fcc {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  right: 0;
+  top: 0;
+  position: fixed;
+}
+
+.fcr {
+  bottom: 0;
+  left: unset;
+  margin: auto 0;
+  right: 0;
+  top: 0;
+  position: fixed;
+}
+
+.fbl {
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  right: unset;
+  top: unset;
+  position: fixed;
+}
+
+.fbc {
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  right: 0;
+  top: unset;
+  position: fixed;
+}
+
+.fbr {
+  bottom: 0;
+  left: unset;
+  margin: 0;
+  right: 0;
+  top: unset;
+  position: fixed;
+}

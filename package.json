@@ -1,20 +1,23 @@
 {
   "name": "gigue",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Micro CSS library",
+  "main": "build/gigue.css",
   "scripts": {
+    "clean": "rimraf build",
+    "build": "postcss src/main.css -o build/gigue.css",
+    "lint": "stylelint src/**/*.css",
+    "lint:fix": "npm run lint -- --fix"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andrewscwei/gigue.git"
   },
   "keywords": [
-    "css",
-    "js"
+    "css"
   ],
   "files": [
-    "build",
-    "lib"
+    "build"
   ],
   "author": "Andrew Wei <andrewscwei@gmail.com>",
   "license": "MIT",
@@ -22,5 +25,17 @@
     "url": "https://github.com/andrewscwei/gigue/issues"
   },
   "homepage": "https://github.com/andrewscwei/gigue#readme",
-  "types": "build/index.d.ts"
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.23",
+    "postcss-cli": "^10.1.0",
+    "postcss-custom-properties": "^13.1.5",
+    "postcss-import": "^15.1.0",
+    "postcss-import-ext-glob": "^2.1.1",
+    "postcss-nesting": "^11.2.2",
+    "rimraf": "^5.0.0",
+    "stylelint": "^15.6.1",
+    "stylelint-order": "^6.0.3"
+  }
 }

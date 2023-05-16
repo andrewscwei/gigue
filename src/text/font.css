@@ -1,0 +1,77 @@
+.text-2xs {
+  font-size: 1rem;
+  line-height: 150%;
+}
+
+.text-xs {
+  font-size: 1.2rem;
+  line-height: 150%;
+}
+
+.text-s {
+  font-size: 1.4rem;
+  line-height: 150%;
+}
+
+.text-m {
+  font-size: 1.6rem;
+  line-height: 150%;
+}
+
+.text-l {
+  font-size: 2rem;
+  line-height: 140%;
+}
+
+.text-xl {
+  font-size: 2.4rem;
+  line-height: 130%;
+}
+
+.text-2xl {
+  font-size: 3rem;
+  line-height: 130%;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-inherit {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-variant: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  text-align: inherit;
+}

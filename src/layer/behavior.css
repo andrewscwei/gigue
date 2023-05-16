@@ -1,0 +1,30 @@
+.mask {
+  mask-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC');
+  overflow: hidden;
+}
+
+.clipped {
+  overflow: hidden;
+}
+
+.unclipped {
+  overflow: visible;
+}
+
+.pointable {
+  pointer-events: auto;
+}
+
+.unpointable {
+  pointer-events: none;
+}
+
+.scroll-x {
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scroll-y {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}

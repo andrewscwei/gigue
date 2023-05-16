@@ -1,0 +1,63 @@
+[class~="spaceh-0"]>*+* {
+  margin-left: 0;
+}
+
+[class~="spaceh-1/2"]>*+* {
+  margin-left: .5rem;
+}
+
+[class~="spaceh-1"]>*+* {
+  margin-left: 1rem;
+}
+
+[class~="spaceh-2"]>*+* {
+  margin-left: 2rem;
+}
+
+[class~="spaceh-3"]>*+* {
+  margin-left: 3rem;
+}
+
+[class~="spaceh-4"]>*+* {
+  margin-left: 4rem;
+}
+
+[class~="spaceh-5"]>*+* {
+  margin-left: 5rem;
+}
+
+[class~="spaceh-6"]>*+* {
+  margin-left: 6rem;
+}
+
+[class~="spacev-0"]>*+* {
+  margin-top: 0;
+}
+
+[class~="spacev-1/2"]>*+* {
+  margin-top: .5rem;
+}
+
+[class~="spacev-1"]>*+* {
+  margin-top: 1rem;
+}
+
+[class~="spacev-2"]>*+* {
+  margin-top: 2rem;
+}
+
+[class~="spacev-3"]>*+* {
+  margin-top: 3rem;
+}
+
+[class~="spacev-4"]>*+* {
+  margin-top: 4rem;
+}
+
+[class~="spacev-5"]>*+* {
+  margin-top: 5rem;
+}
+
+[class~="spacev-6"]>*+* {
+  margin-top: 6rem;
+}
