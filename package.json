@@ -1,0 +1,26 @@
+{
+  "name": "gigue",
+  "version": "0.1.0",
+  "description": "Micro CSS library",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewscwei/gigue.git"
+  },
+  "keywords": [
+    "css",
+    "js"
+  ],
+  "files": [
+    "build",
+    "lib"
+  ],
+  "author": "Andrew Wei <andrewscwei@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewscwei/gigue/issues"
+  },
+  "homepage": "https://github.com/andrewscwei/gigue#readme",
+  "types": "build/index.d.ts"
+}
