@@ -4,74 +4,38 @@
 
 .ts {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-
-  &:not([class*='duration-']) {
-    transition-duration: 200ms;
-  }
-
-  &:not([class*='ease-']) {
-    transition-timing-function: ease-out;
-  }
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
 }
 
 .ts-colors {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
-
-  &:not([class*='duration-']) {
-    transition-duration: 200ms;
-  }
-
-  &:not([class*='ease-']) {
-    transition-timing-function: ease-out;
-  }
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
 }
 
 .ts-opacity {
   transition-property: opacity;
-
-  &:not([class*='duration-']) {
-    transition-duration: 200ms;
-  }
-
-  &:not([class*='ease-']) {
-    transition-timing-function: ease-out;
-  }
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
 }
 
 .ts-filter {
   transition-property: filter;
-
-  &:not([class*='duration-']) {
-    transition-duration: 200ms;
-  }
-
-  &:not([class*='ease-']) {
-    transition-timing-function: ease-out;
-  }
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
 }
 
 .ts-shadow {
   transition-property: box-shadow;
-
-  &:not([class*='duration-']) {
-    transition-duration: 200ms;
-  }
-
-  &:not([class*='ease-']) {
-    transition-timing-function: ease-out;
-  }
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
 }
 
 .ts-transform {
   transition-property: transform;
-
-  &:not([class*='duration-']) {
-    transition-duration: 200ms;
-  }
-
-  &:not([class*='ease-']) {
-    transition-timing-function: ease-out;
-  }
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
 }
 
 .duration-0 {
