@@ -33,6 +33,11 @@
   line-height: 130%;
 }
 
+.text-3xl {
+  font-size: 4rem;
+  line-height: 130%;
+}
+
 .underline {
   text-decoration: underline;
 }
