@@ -1,80 +1,215 @@
 .tl {
-  bottom: unset;
-  left: 0;
-  margin: 0;
-  right: unset;
-  top: 0;
   position: absolute;
+
+  &:not([class*='m-']) {
+    margin: 0;
+  }
+
+  &:not([class*='t-']) {
+    top: 0;
+  }
+
+  &:not([class*='r-']) {
+    right: unset;
+  }
+
+  &:not([class*='b-']) {
+    bottom: unset;
+  }
+
+  &:not([class*='l-']) {
+    left: 0;
+  }
 }
 
 .tc {
-  bottom: unset;
-  left: 0;
-  margin: 0 auto;
-  right: 0;
-  top: 0;
   position: absolute;
+
+  &:not([class*='m-']) {
+    margin: 0 auto;
+  }
+
+  &:not([class*='t-']) {
+    top: 0;
+  }
+
+  &:not([class*='r-']) {
+    right: 0;
+  }
+
+  &:not([class*='b-']) {
+    bottom: unset;
+  }
+
+  &:not([class*='l-']) {
+    left: 0;
+  }
 }
 
 .tr {
-  bottom: unset;
-  left: unset;
-  margin: 0;
-  right: 0;
-  top: 0;
   position: absolute;
+
+  &:not([class*='m-']) {
+    margin: 0;
+  }
+
+  &:not([class*='t-']) {
+    top: 0;
+  }
+
+  &:not([class*='r-']) {
+    right: 0;
+  }
+
+  &:not([class*='b-']) {
+    bottom: unset;
+  }
+
+  &:not([class*='l-']) {
+    left: unset;
+  }
 }
 
 .cl {
-  bottom: 0;
-  left: 0;
-  margin: auto 0;
-  right: unset;
-  top: 0;
   position: absolute;
+
+  &:not([class*='m-']) {
+    margin: auto 0;
+  }
+
+  &:not([class*='t-']) {
+    top: 0;
+  }
+
+  &:not([class*='r-']) {
+    right: unset;
+  }
+
+  &:not([class*='b-']) {
+    bottom: 0;
+  }
+
+  &:not([class*='l-']) {
+    left: 0;
+  }
 }
 
 .cc {
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  right: 0;
-  top: 0;
   position: absolute;
+
+  &:not([class*='m-']) {
+    margin: auto;
+  }
+
+  &:not([class*='t-']) {
+    top: 0;
+  }
+
+  &:not([class*='r-']) {
+    right: 0;
+  }
+
+  &:not([class*='b-']) {
+    bottom: 0;
+  }
+
+  &:not([class*='l-']) {
+    left: 0;
+  }
 }
 
 .cr {
-  bottom: 0;
-  left: unset;
-  margin: auto 0;
-  right: 0;
-  top: 0;
   position: absolute;
+
+  &:not([class*='m-']) {
+    margin: auto 0;
+  }
+
+  &:not([class*='t-']) {
+    top: 0;
+  }
+
+  &:not([class*='r-']) {
+    right: 0;
+  }
+
+  &:not([class*='b-']) {
+    bottom: 0;
+  }
+
+  &:not([class*='l-']) {
+    left: unset;
+  }
 }
 
 .bl {
-  bottom: 0;
-  left: 0;
-  margin: 0;
-  right: unset;
-  top: unset;
   position: absolute;
+
+  &:not([class*='m-']) {
+    margin: 0;
+  }
+
+  &:not([class*='t-']) {
+    top: unset;
+  }
+
+  &:not([class*='r-']) {
+    right: unset;
+  }
+
+  &:not([class*='b-']) {
+    bottom: 0;
+  }
+
+  &:not([class*='l-']) {
+    left: 0;
+  }
 }
 
 .bc {
-  bottom: 0;
-  left: 0;
-  margin: 0 auto;
-  right: 0;
-  top: unset;
   position: absolute;
+
+  &:not([class*='m-']) {
+    margin: 0 auto;
+  }
+
+  &:not([class*='t-']) {
+    top: unset;
+  }
+
+  &:not([class*='r-']) {
+    right: 0;
+  }
+
+  &:not([class*='b-']) {
+    bottom: 0;
+  }
+
+  &:not([class*='l-']) {
+    left: 0;
+  }
 }
 
 .br {
-  bottom: 0;
-  left: unset;
-  margin: 0;
-  right: 0;
-  top: unset;
   position: absolute;
+
+  &:not([class*='m-']) {
+    margin: 0;
+  }
+
+  &:not([class*='t-']) {
+    top: unset;
+  }
+
+  &:not([class*='r-']) {
+    right: 0;
+  }
+
+  &:not([class*='b-']) {
+    bottom: 0;
+  }
+
+  &:not([class*='l-']) {
+    left: unset;
+  }
 }

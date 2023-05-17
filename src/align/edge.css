@@ -1,335 +1,351 @@
+[class~='t-unset'] {
+  top: unset;
+}
+
 [class~='t-0'] {
-  top: 0 !important;
+  top: 0;
 }
 
 [class~='t-1/10'] {
-  top: 10% !important;
+  top: 10%;
 }
 
 [class~='t-3/10'] {
-  top: 30% !important;
+  top: 30%;
 }
 
 [class~='t-1/2'] {
-  top: 50% !important;
+  top: 50%;
 }
 
 [class~='t-7/10'] {
-  top: 70% !important;
+  top: 70%;
 }
 
 [class~='t-9/10'] {
-  top: 90% !important;
+  top: 90%;
 }
 
 [class~='t-1/4'] {
-  top: 25% !important;
+  top: 25%;
 }
 
 [class~='t-3/4'] {
-  top: 75% !important;
+  top: 75%;
 }
 
 [class~='t-1/3'] {
-  top: 33.333333% !important;
+  top: 33.333333%;
 }
 
 [class~='t-2/3'] {
-  top: 66.666666% !important;
+  top: 66.666666%;
 }
 
 [class~='t-1/5'] {
-  top: 20% !important;
+  top: 20%;
 }
 
 [class~='t-2/5'] {
-  top: 40% !important;
+  top: 40%;
 }
 
 [class~='t-3/5'] {
-  top: 60% !important;
+  top: 60%;
 }
 
 [class~='t-4/5'] {
-  top: 80% !important;
+  top: 80%;
 }
 
 [class~='t-max'] {
-  top: 100% !important;
+  top: 100%;
 }
 
 [class~='t-1'] {
-  top: 1rem !important;
+  top: 1rem;
 }
 
 [class~='t-2'] {
-  top: 2rem !important;
+  top: 2rem;
 }
 
 [class~='t-3'] {
-  top: 3rem !important;
+  top: 3rem;
 }
 
 [class~='t-4'] {
-  top: 4rem !important;
+  top: 4rem;
 }
 
 [class~='t-5'] {
-  top: 5rem !important;
+  top: 5rem;
 }
 
 [class~='t-6'] {
-  top: 6rem !important;
+  top: 6rem;
+}
+
+[class~='r-unset'] {
+  right: unset;
 }
 
 [class~='r-0'] {
-  right: 0 !important;
+  right: 0;
 }
 
 [class~='r-1/10'] {
-  right: 10% !important;
+  right: 10%;
 }
 
 [class~='r-3/10'] {
-  right: 30% !important;
+  right: 30%;
 }
 
 [class~='r-1/2'] {
-  right: 50% !important;
+  right: 50%;
 }
 
 [class~='r-7/10'] {
-  right: 70% !important;
+  right: 70%;
 }
 
 [class~='r-9/10'] {
-  right: 90% !important;
+  right: 90%;
 }
 
 [class~='r-1/4'] {
-  right: 25% !important;
+  right: 25%;
 }
 
 [class~='r-3/4'] {
-  right: 75% !important;
+  right: 75%;
 }
 
 [class~='r-1/3'] {
-  right: 33.333333% !important;
+  right: 33.333333%;
 }
 
 [class~='r-2/3'] {
-  right: 66.666666% !important;
+  right: 66.666666%;
 }
 
 [class~='r-1/5'] {
-  right: 20% !important;
+  right: 20%;
 }
 
 [class~='r-2/5'] {
-  right: 40% !important;
+  right: 40%;
 }
 
 [class~='r-3/5'] {
-  right: 60% !important;
+  right: 60%;
 }
 
 [class~='r-4/5'] {
-  right: 80% !important;
+  right: 80%;
 }
 
 [class~='r-max'] {
-  right: 100% !important;
+  right: 100%;
 }
 
 [class~='r-1'] {
-  right: 1rem !important;
+  right: 1rem;
 }
 
 [class~='r-2'] {
-  right: 2rem !important;
+  right: 2rem;
 }
 
 [class~='r-3'] {
-  right: 3rem !important;
+  right: 3rem;
 }
 
 [class~='r-4'] {
-  right: 4rem !important;
+  right: 4rem;
 }
 
 [class~='r-5'] {
-  right: 5rem !important;
+  right: 5rem;
 }
 
 [class~='r-6'] {
-  right: 6rem !important;
+  right: 6rem;
+}
+
+[class~='b-unset'] {
+  bottom: unset;
 }
 
 [class~='b-0'] {
-  bottom: 0 !important;
+  bottom: 0;
 }
 
 [class~='b-1/10'] {
-  bottom: 10% !important;
+  bottom: 10%;
 }
 
 [class~='b-3/10'] {
-  bottom: 30% !important;
+  bottom: 30%;
 }
 
 [class~='b-1/2'] {
-  bottom: 50% !important;
+  bottom: 50%;
 }
 
 [class~='b-7/10'] {
-  bottom: 70% !important;
+  bottom: 70%;
 }
 
 [class~='b-9/10'] {
-  bottom: 90% !important;
+  bottom: 90%;
 }
 
 [class~='b-1/4'] {
-  bottom: 25% !important;
+  bottom: 25%;
 }
 
 [class~='b-3/4'] {
-  bottom: 75% !important;
+  bottom: 75%;
 }
 
 [class~='b-1/3'] {
-  bottom: 33.333333% !important;
+  bottom: 33.333333%;
 }
 
 [class~='b-2/3'] {
-  bottom: 66.666666% !important;
+  bottom: 66.666666%;
 }
 
 [class~='b-1/5'] {
-  bottom: 20% !important;
+  bottom: 20%;
 }
 
 [class~='b-2/5'] {
-  bottom: 40% !important;
+  bottom: 40%;
 }
 
 [class~='b-3/5'] {
-  bottom: 60% !important;
+  bottom: 60%;
 }
 
 [class~='b-4/5'] {
-  bottom: 80% !important;
+  bottom: 80%;
 }
 
 [class~='b-max'] {
-  bottom: 100% !important;
+  bottom: 100%;
 }
 
 [class~='b-1'] {
-  bottom: 1rem !important;
+  bottom: 1rem;
 }
 
 [class~='b-2'] {
-  bottom: 2rem !important;
+  bottom: 2rem;
 }
 
 [class~='b-3'] {
-  bottom: 3rem !important;
+  bottom: 3rem;
 }
 
 [class~='b-4'] {
-  bottom: 4rem !important;
+  bottom: 4rem;
 }
 
 [class~='b-5'] {
-  bottom: 5rem !important;
+  bottom: 5rem;
 }
 
 [class~='b-6'] {
-  bottom: 6rem !important;
+  bottom: 6rem;
+}
+
+[class~='l-unset'] {
+  left: unset;
 }
 
 [class~='l-0'] {
-  left: 0 !important;
+  left: 0;
 }
 
 [class~='l-1/10'] {
-  left: 10% !important;
+  left: 10%;
 }
 
 [class~='l-3/10'] {
-  left: 30% !important;
+  left: 30%;
 }
 
 [class~='l-1/2'] {
-  left: 50% !important;
+  left: 50%;
 }
 
 [class~='l-7/10'] {
-  left: 70% !important;
+  left: 70%;
 }
 
 [class~='l-9/10'] {
-  left: 90% !important;
+  left: 90%;
 }
 
 [class~='l-1/4'] {
-  left: 25% !important;
+  left: 25%;
 }
 
 [class~='l-3/4'] {
-  left: 75% !important;
+  left: 75%;
 }
 
 [class~='l-1/3'] {
-  left: 33.333333% !important;
+  left: 33.333333%;
 }
 
 [class~='l-2/3'] {
-  left: 66.666666% !important;
+  left: 66.666666%;
 }
 
 [class~='l-1/5'] {
-  left: 20% !important;
+  left: 20%;
 }
 
 [class~='l-2/5'] {
-  left: 40% !important;
+  left: 40%;
 }
 
 [class~='l-3/5'] {
-  left: 60% !important;
+  left: 60%;
 }
 
 [class~='l-4/5'] {
-  left: 80% !important;
+  left: 80%;
 }
 
 [class~='l-max'] {
-  left: 100% !important;
+  left: 100%;
 }
 
 [class~='l-1'] {
-  left: 1rem !important;
+  left: 1rem;
 }
 
 [class~='l-2'] {
-  left: 2rem !important;
+  left: 2rem;
 }
 
 [class~='l-3'] {
-  left: 3rem !important;
+  left: 3rem;
 }
 
 [class~='l-4'] {
-  left: 4rem !important;
+  left: 4rem;
 }
 
 [class~='l-5'] {
-  left: 5rem !important;
+  left: 5rem;
 }
 
 [class~='l-6'] {
-  left: 6rem !important;
+  left: 6rem;
 }
