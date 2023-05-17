@@ -6,7 +6,7 @@
   "unpkg": "build/gigue.css",
   "scripts": {
     "clean": "rimraf build media.css",
-    "build": "postcss src/main.css -o build/gigue.css && cp -rf lib/ .",
+    "build": "npm run clean && postcss src/main.css -o build/gigue.css && cp -rf lib/* .",
     "lint": "stylelint src/**/*.css",
     "lint:fix": "npm run lint -- --fix"
   },
