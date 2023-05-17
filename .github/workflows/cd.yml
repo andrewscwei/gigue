@@ -13,7 +13,7 @@ jobs:
     uses: andrewscwei/workflows/.github/workflows/npm-deploy.yml@master
     with:
       create-release: true
-      run-command: npm run build
+      run-command: NODE_ENV=production npm run build
     secrets:
       npm-auth-token: ${{ secrets.NPM_AUTH }}
   notify:
