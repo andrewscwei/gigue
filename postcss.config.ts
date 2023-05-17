@@ -3,6 +3,8 @@
 import postcssIsPseudoClass from '@csstools/postcss-is-pseudo-class'
 import autoprefixer from 'autoprefixer'
 import cssnano from 'cssnano'
+import postcssCustomMedia from 'postcss-custom-media'
+import postcssCustomProperties from 'postcss-custom-properties'
 import postcssImport from 'postcss-import'
 import postcssImportExtGlob from 'postcss-import-ext-glob'
 import postcssNesting from 'postcss-nesting'
@@ -10,7 +12,7 @@ import postcssPrefixSelector from 'postcss-prefix-selector'
 import { sprintf } from 'sprintf-js'
 
 const CLASS_PREFIXES = [
-  ':is(:not(.touch)) [class~=\'hover:%s\']:hover',
+  `:is(:not(.touch)) [class~='hover:%s']:hover`,
 ]
 
 export default function(ctx: any) {
@@ -37,7 +39,9 @@ export default function(ctx: any) {
           }
         }) as any,
       }),
+      postcssCustomProperties(),
       postcssIsPseudoClass(),
+      postcssCustomMedia(),
       postcssNesting(),
       autoprefixer(),
       ...ctx.env === 'production' ? [cssnano()] : [],
