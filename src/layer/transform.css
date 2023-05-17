@@ -1,0 +1,35 @@
+.origin-tl {
+  transform-origin: top left;
+}
+
+.origin-tc {
+  transform-origin: top center;
+}
+
+.origin-tr {
+  transform-origin: top right;
+}
+
+.origin-cl {
+  transform-origin: center left;
+}
+
+.origin-cc {
+  transform-origin: center;
+}
+
+.origin-cr {
+  transform-origin: center right;
+}
+
+.origin-bl {
+  transform-origin: bottom left;
+}
+
+.origin-bc {
+  transform-origin: bottom center;
+}
+
+.origin-br {
+  transform-origin: bottom right;
+}

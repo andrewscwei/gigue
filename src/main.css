@@ -6,3 +6,4 @@
 @import-glob 'dimension/*';
 @import-glob 'layer/*';
 @import-glob 'text/*';
+@import-glob 'transition/*';

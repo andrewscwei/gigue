@@ -1,0 +1,15 @@
+.invisible {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.collapse {
+  visibility: collapse;
+}
+
+.bg-var {
+  background-color: var(--bg-color);
+}
