@@ -1,8 +1,8 @@
 .block {
   box-sizing: border-box;
   display: block;
+}
 
-  &.inline {
-    display: inline-block;
-  }
+.iblock {
+  display: inline-block;
 }
