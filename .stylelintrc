@@ -7,7 +7,6 @@
       true,
       {
         "ignoreAtRules": [
-          "import-glob",
           "value"
         ]
       }

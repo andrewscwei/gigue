@@ -1,3 +1,7 @@
+.bg-var {
+  background-color: var(--bg-color);
+}
+
 .bg-cover {
   background-repeat: no-repeat;
   background-size: cover;

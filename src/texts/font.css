@@ -43,38 +43,6 @@
   line-height: 130%;
 }
 
-.underline {
-  text-decoration: underline;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-.lowercase {
-  text-transform: lowercase;
-}
-
-.capitalize {
-  text-transform: capitalize;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-start {
-  text-align: start;
-}
-
-.text-end {
-  text-align: end;
-}
-
-.text-justify {
-  text-align: justify;
-}
-
 .text-inherit {
   font-family: inherit;
   font-size: inherit;

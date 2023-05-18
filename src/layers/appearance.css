@@ -1,3 +1,15 @@
+.invisible {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.collapse {
+  visibility: collapse;
+}
+
 .mask {
   mask-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC');
   overflow: hidden;
@@ -9,22 +21,4 @@
 
 .unclipped {
   overflow: visible;
-}
-
-.pointable {
-  pointer-events: auto;
-}
-
-.unpointable {
-  pointer-events: none;
-}
-
-.scroll-x {
-  overflow-x: scroll;
-  -webkit-overflow-scrolling: touch;
-}
-
-.scroll-y {
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
 }

@@ -1,4 +1,4 @@
-/// <reference path='global.d.ts' />
+/* eslint-disable @typescript-eslint/naming-convention */
 
 import postcssIsPseudoClass from '@csstools/postcss-is-pseudo-class'
 import autoprefixer from 'autoprefixer'
@@ -9,14 +9,13 @@ import postcss, { AtRule, Node, Plugin } from 'postcss'
 import postcssCustomMedia from 'postcss-custom-media'
 import postcssCustomProperties from 'postcss-custom-properties'
 import postcssImport from 'postcss-import'
-import postcssImportExtGlob from 'postcss-import-ext-glob'
 import postcssNesting from 'postcss-nesting'
 import { sprintf } from 'sprintf-js'
 
 const customMediaQueries = fs.readFileSync(path.join(__dirname, 'lib/media.css'), 'utf-8')
 
 const CUSTOM_MEDIA: Record<string, string[]> = {
-  '(hover: hover)': [`[class~='hover:%s']:hover %s`],
+  '(hover: hover)': ['[class~=\'hover:%s\']:hover %s'],
   ...postcss.parse(customMediaQueries).nodes.reduce((out, curr) => {
     if (curr.type !== 'atrule' || curr.name !== 'custom-media') return out
 
@@ -29,9 +28,9 @@ const CUSTOM_MEDIA: Record<string, string[]> = {
     return {
       ...out, [query]: [
         `[class~='${name}:%s'] %s`,
-      ]
+      ],
     }
-  }, {})
+  }, {}),
 }
 
 const customPlugin = (): Plugin => {
@@ -43,6 +42,8 @@ const customPlugin = (): Plugin => {
       const selector = rule.selector
 
       for (const media in CUSTOM_MEDIA) {
+        if (!Object.prototype.hasOwnProperty.call(CUSTOM_MEDIA, media)) continue
+
         let className: string | undefined
         let subselector: string | undefined
 
@@ -77,10 +78,9 @@ const customPlugin = (): Plugin => {
   }
 }
 
-export default function (ctx: any) {
+export default function(ctx: any) {
   return {
     plugins: [
-      postcssImportExtGlob(),
       postcssImport(),
       customPlugin(),
       postcssCustomProperties(),

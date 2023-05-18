@@ -1,9 +1,7 @@
 @import 'normalize';
 
-@import-glob 'align/*';
-@import-glob 'background/*';
-@import-glob 'container/*';
-@import-glob 'dimension/*';
-@import-glob 'layer/*';
-@import-glob 'text/*';
-@import-glob 'transition/*';
+@import 'layout';
+@import 'layers';
+@import 'boxes';
+@import 'texts';
+@import 'transitions';
