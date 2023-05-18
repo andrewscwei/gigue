@@ -16,7 +16,7 @@ import { sprintf } from 'sprintf-js'
 const customMediaQueries = fs.readFileSync(path.join(__dirname, 'lib/media.css'), 'utf-8')
 
 const CUSTOM_MEDIA: Record<string, string[]> = {
-  '(hover: hover)': [`[class~='hover:%s']:hover`],
+  '(hover: hover)': [`[class~='hover:%s']:hover %s`],
   ...postcss.parse(customMediaQueries).nodes.reduce((out, curr) => {
     if (curr.type !== 'atrule' || curr.name !== 'custom-media') return out
 
@@ -26,9 +26,11 @@ const CUSTOM_MEDIA: Record<string, string[]> = {
 
     if (!name || !query) return out
 
-    return { ...out, [query]: [
-      `[class~='${name}:%s']`,
-    ] }
+    return {
+      ...out, [query]: [
+        `[class~='${name}:%s'] %s`,
+      ]
+    }
   }, {})
 }
 
@@ -42,18 +44,24 @@ const customPlugin = (): Plugin => {
 
       for (const media in CUSTOM_MEDIA) {
         let className: string | undefined
+        let subselector: string | undefined
 
         if (selector.startsWith('.')) {
-          className = selector.substring(1)
+          const matches = /^\.(.*) ?(.*)$/.exec(selector)
+          className = matches?.[1]
+          subselector = matches?.[2]
         }
-        else if (selector.startsWith('[class')) {
-          className = /^.*('|")(.*)('|").*$/.exec(selector)?.[2]
+        else if (selector.startsWith('[class~=')) {
+          const matches = /^\[class~=('|")(.*)('|")\] ?(.*)$/.exec(selector)
+          className = matches?.[2]
+          subselector = matches?.[4]
         }
 
         if (!className) break
 
         const newRule = rule.clone()
-        newRule.selector =`${CUSTOM_MEDIA[media].map(t => sprintf(t, className)).join(', ')}`
+        const newSelector = `${CUSTOM_MEDIA[media].map(t => sprintf(t, className, subselector)).join(', ')}`
+        newRule.selector = newSelector
 
         const newAtRule = new AtRule({ name: 'media', params: media })
         newAtRule.append(newRule)
@@ -69,7 +77,7 @@ const customPlugin = (): Plugin => {
   }
 }
 
-export default function(ctx: any) {
+export default function (ctx: any) {
   return {
     plugins: [
       postcssImportExtGlob(),
