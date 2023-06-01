@@ -314,12 +314,6 @@ sub {
   bottom: -.25em;
 }
 
-svg:not(:root) {
-  height: 100%;
-  overflow: hidden;
-  width: auto;
-}
-
 hr {
   border: none;
   box-sizing: content-box;
