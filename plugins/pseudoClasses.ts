@@ -34,10 +34,10 @@ const plugin = (): Plugin => {
         root.append(node)
       }
 
-      const beforeRule = new Rule({ selector: '[class*=before:]:before' })
+      const beforeRule = new Rule({ selector: '[class*="before:"]::before' })
       beforeRule.append(new Declaration({ prop: 'content', value: '""' }))
 
-      const afterRule = new Rule({ selector: '[class*=after:]:after' })
+      const afterRule = new Rule({ selector: '[class*="after:"]::after' })
       afterRule.append(new Declaration({ prop: 'content', value: '""' }))
 
       root.append(beforeRule)

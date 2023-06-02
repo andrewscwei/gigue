@@ -12,7 +12,7 @@ const plugin = (): Plugin => {
   const nodesToAppend: Node[] = []
 
   return {
-    postcssPlugin: 'pseudoClasses',
+    postcssPlugin: 'pseudoElements',
     Rule(rule) {
       const selector = rule.selector
 
