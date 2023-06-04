@@ -1,6 +1,6 @@
 {
   "name": "gigue",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "description": "Micro CSS library",
   "main": "build/gigue.css",
   "unpkg": "build/gigue.css",
@@ -37,7 +37,7 @@
     "@typescript-eslint/eslint-plugin": "^5.59.8",
     "autoprefixer": "^10.4.14",
     "cssnano": "^6.0.1",
-    "eslint": "^8.41.0",
+    "eslint": "^8.42.0",
     "postcss": "^8.4.24",
     "postcss-cli": "^10.1.0",
     "postcss-custom-media": "^9.1.4",
@@ -47,7 +47,7 @@
     "postcss-prefix-selector": "^1.16.0",
     "rimraf": "^5.0.1",
     "sprintf-js": "^1.1.2",
-    "stylelint": "^15.6.2",
+    "stylelint": "^15.6.3",
     "stylelint-order": "^6.0.3",
     "ts-node": "^10.9.1"
   }
