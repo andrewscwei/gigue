@@ -2,8 +2,8 @@
 @custom-media --landscape (orientation: landscape);
 
 /* tablet: 640-1024 */
-@custom-media --tablet- (orientation: portrait) and (max-width: 639px), (orientation: landscape) and (max-height: 639px);
-@custom-media --tablet (orientation: portrait) and (min-width: 640px), (orientation: landscape) and (min-height: 640px);
+@custom-media --tablet- (orientation: portrait) and (max-width: 600px), (orientation: landscape) and (max-height: 600px);
+@custom-media --tablet (orientation: portrait) and (min-width: 601px), (orientation: landscape) and (min-height: 601px);
 
 /* notebook: 1025-1439 */
 @custom-media --notebook- (orientation: portrait) and (max-width: 1024px), (orientation: landscape) and (max-height: 1024px);
