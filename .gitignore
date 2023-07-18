@@ -2,6 +2,9 @@
 !.keep
 !.gitkeep
 
+# Custom
+/media.css
+
 # Configuration
 .env
 .env.*
