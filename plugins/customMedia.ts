@@ -43,14 +43,14 @@ const plugin = (): Plugin => {
     postcssPlugin: 'mediaClasses',
     Rule(rule) {
       const selector = rule.selector
+      const { className, subselector } = parseSelector(selector)
+
+      if (!className) return
 
       for (const mediaClass in DICT) {
         if (!Object.prototype.hasOwnProperty.call(DICT, mediaClass)) continue
 
-        const mediaQueries = DICT[mediaClass]
-        const { className, subselector } = parseSelector(selector)
-
-        if (!className) break
+        const mediaQueries = [...DICT[mediaClass]]
 
         const newRule = rule.clone()
         const newSelector = sprintf(mediaClass, className, subselector)
