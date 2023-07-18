@@ -27,10 +27,10 @@ function mapCustomMediaToDict(root: Root): Record<string, string[]> {
 
     return {
       ...out,
-      [query]: [`[class~='${name}:%s'] %s`],
+      [`[class~='${name}:%s'] %s`]: [query],
       ...isOrientation ? {} : {
-        [`(orientation: portrait) and (${query})`]: [`[class~='${name}:portrait:%s'] %s`],
-        [`(orientation: landscape) and (${query})`]: [`[class~='${name}:landscape:%s'] %s`],
+        [`[class~='${name}:portrait:%s'] %s`]: [query, '(orientation: portrait)'],
+        [`[class~='${name}:landscape:%s'] %s`]: [query, '(orientation: landscape)'],
       },
     }
   }, {})
@@ -44,21 +44,32 @@ const plugin = (): Plugin => {
     Rule(rule) {
       const selector = rule.selector
 
-      for (const media in DICT) {
-        if (!Object.prototype.hasOwnProperty.call(DICT, media)) continue
+      for (const mediaClass in DICT) {
+        if (!Object.prototype.hasOwnProperty.call(DICT, mediaClass)) continue
 
+        const mediaQueries = DICT[mediaClass]
         const { className, subselector } = parseSelector(selector)
 
         if (!className) break
 
         const newRule = rule.clone()
-        const newSelector = `${DICT[media].map(t => sprintf(t, className, subselector)).join(', ')}`
+        const newSelector = sprintf(mediaClass, className, subselector)
         newRule.selector = newSelector
 
-        const newAtRule = new AtRule({ name: 'media', params: media })
-        newAtRule.append(newRule)
+        let firstAtRule: AtRule | undefined
+        let lastAtRule: AtRule | undefined
 
-        nodesToAppend.push(newAtRule)
+        while (mediaQueries.length > 0) {
+          const t = new AtRule({ name: 'media', params: mediaQueries.pop() })
+
+          if (!firstAtRule) firstAtRule = t
+          lastAtRule?.append(t)
+          lastAtRule = t
+        }
+
+        lastAtRule?.append(newRule)
+
+        if (firstAtRule) nodesToAppend.push(firstAtRule)
       }
     },
     OnceExit(root) {
