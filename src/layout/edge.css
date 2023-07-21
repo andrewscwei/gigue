@@ -86,6 +86,10 @@
   top: 6rem;
 }
 
+[class~='t-safe'] {
+  top: env(safe-area-inset-top);
+}
+
 [class~='r-unset'] {
   right: unset;
 }
@@ -172,6 +176,10 @@
 
 [class~='r-6'] {
   right: 6rem;
+}
+
+[class~='r-safe'] {
+  right: env(safe-area-inset-right);
 }
 
 [class~='b-unset'] {
@@ -262,6 +270,10 @@
   bottom: 6rem;
 }
 
+[class~='b-safe'] {
+  bottom: env(safe-area-inset-bottom);
+}
+
 [class~='l-unset'] {
   left: unset;
 }
@@ -348,4 +360,8 @@
 
 [class~='l-6'] {
   left: 6rem;
+}
+
+[class~='l-safe'] {
+  left: env(safe-area-inset-left);
 }
