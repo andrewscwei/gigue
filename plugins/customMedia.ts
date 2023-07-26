@@ -9,7 +9,7 @@ import parseSelector from './utils/parseSelector'
 const CUSTOM_MEDIA_QUERIES = fs.readFileSync(path.join(__dirname, '../lib/media.css'), 'utf-8')
 
 const DICT: Record<string, string[]> = {
-  '(hover: hover)': ['[class~=\'hover:%s\']:hover %s'],
+  ['[class~=\'hover:%s\']:hover %s']: ['(hover: hover)'],
   ...mapCustomMediaToDict(postcss.parse(CUSTOM_MEDIA_QUERIES)),
 }
 
