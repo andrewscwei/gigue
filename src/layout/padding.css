@@ -1,3 +1,7 @@
+[class~='p-auto'] {
+  padding: auto;
+}
+
 [class~='p-0'] {
   padding: 0;
 }
@@ -30,8 +34,73 @@
   padding: 6rem;
 }
 
-[class~='p-safe'] {
-  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+[class~='safe:p-0'] {
+  padding: 0;
+  padding-top: max(0, env(safe-area-inset-top));
+  padding-right: max(0, env(safe-area-inset-right));
+  padding-bottom: max(0, env(safe-area-inset-bottom));
+  padding-left: max(0, env(safe-area-inset-left));
+}
+
+[class~='safe:p-1/2'] {
+  padding: .5rem;
+  padding-top: max(.5rem, env(safe-area-inset-top));
+  padding-right: max(.5rem, env(safe-area-inset-right));
+  padding-bottom: max(.5rem, env(safe-area-inset-bottom));
+  padding-left: max(.5rem, env(safe-area-inset-left));
+}
+
+[class~='safe:p-1'] {
+  padding: 1rem;
+  padding-top: max(1rem, env(safe-area-inset-top));
+  padding-right: max(1rem, env(safe-area-inset-right));
+  padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  padding-left: max(1rem, env(safe-area-inset-left));
+}
+
+[class~='safe:p-2'] {
+  padding: 2rem;
+  padding-top: max(2rem, env(safe-area-inset-top));
+  padding-right: max(2rem, env(safe-area-inset-right));
+  padding-bottom: max(2rem, env(safe-area-inset-bottom));
+  padding-left: max(2rem, env(safe-area-inset-left));
+}
+
+[class~='safe:p-3'] {
+  padding: 3rem;
+  padding-top: max(3rem, env(safe-area-inset-top));
+  padding-right: max(3rem, env(safe-area-inset-right));
+  padding-bottom: max(3rem, env(safe-area-inset-bottom));
+  padding-left: max(3rem, env(safe-area-inset-left));
+}
+
+[class~='safe:p-4'] {
+  padding: 4rem;
+  padding-top: max(4rem, env(safe-area-inset-top));
+  padding-right: max(4rem, env(safe-area-inset-right));
+  padding-bottom: max(4rem, env(safe-area-inset-bottom));
+  padding-left: max(4rem, env(safe-area-inset-left));
+}
+
+[class~='safe:p-5'] {
+  padding: 5rem;
+  padding-top: max(5rem, env(safe-area-inset-top));
+  padding-right: max(5rem, env(safe-area-inset-right));
+  padding-bottom: max(5rem, env(safe-area-inset-bottom));
+  padding-left: max(5rem, env(safe-area-inset-left));
+}
+
+[class~='safe:p-6'] {
+  padding: 6rem;
+  padding-top: max(6rem, env(safe-area-inset-top));
+  padding-right: max(6rem, env(safe-area-inset-right));
+  padding-bottom: max(6rem, env(safe-area-inset-bottom));
+  padding-left: max(6rem, env(safe-area-inset-left));
+}
+
+[class~='ph-auto'] {
+  padding-right: auto;
+  padding-left: auto;
 }
 
 [class~='ph-0'] {
@@ -74,9 +143,65 @@
   padding-left: 6rem;
 }
 
-[class~='ph-safe'] {
-  padding-right: env(safe-area-inset-right);
-  padding-left: env(safe-area-inset-left);
+[class~='safe:ph-0'] {
+  padding-right: 0;
+  padding-right: max(0, env(safe-area-inset-right));
+  padding-left: 0;
+  padding-left: max(0, env(safe-area-inset-left));
+}
+
+[class~='safe:ph-1/2'] {
+  padding-right: .5rem;
+  padding-right: max(.5rem, env(safe-area-inset-right));
+  padding-left: .5rem;
+  padding-left: max(.5rem, env(safe-area-inset-left));
+}
+
+[class~='safe:ph-1'] {
+  padding-right: 1rem;
+  padding-right: max(1rem, env(safe-area-inset-right));
+  padding-left: 1rem;
+  padding-left: max(1rem, env(safe-area-inset-left));
+}
+
+[class~='safe:ph-2'] {
+  padding-right: 2rem;
+  padding-right: max(2rem, env(safe-area-inset-right));
+  padding-left: 2rem;
+  padding-left: max(2rem, env(safe-area-inset-left));
+}
+
+[class~='safe:ph-3'] {
+  padding-right: 3rem;
+  padding-right: max(3rem, env(safe-area-inset-right));
+  padding-left: 3rem;
+  padding-left: max(3rem, env(safe-area-inset-left));
+}
+
+[class~='safe:ph-4'] {
+  padding-right: 4rem;
+  padding-right: max(4rem, env(safe-area-inset-right));
+  padding-left: 4rem;
+  padding-left: max(4rem, env(safe-area-inset-left));
+}
+
+[class~='safe:ph-5'] {
+  padding-right: 5rem;
+  padding-right: max(5rem, env(safe-area-inset-right));
+  padding-left: 5rem;
+  padding-left: max(5rem, env(safe-area-inset-left));
+}
+
+[class~='safe:ph-6'] {
+  padding-right: 6rem;
+  padding-right: max(6rem, env(safe-area-inset-right));
+  padding-left: 6rem;
+  padding-left: max(6rem, env(safe-area-inset-left));
+}
+
+[class~='pv-auto'] {
+  padding-top: auto;
+  padding-bottom: auto;
 }
 
 [class~='pv-0'] {
@@ -119,9 +244,64 @@
   padding-bottom: 6rem;
 }
 
-[class~='pv-safe'] {
-  padding-top: env(safe-area-inset-top);
-  padding-bottom: env(safe-area-inset-bottom);
+[class~='safe:pv-0'] {
+  padding-top: 0;
+  padding-top: max(0, env(safe-area-inset-top));
+  padding-bottom: 0;
+  padding-bottom: max(0, env(safe-area-inset-bottom));
+}
+
+[class~='safe:pv-1/2'] {
+  padding-top: .5rem;
+  padding-top: max(.5rem, env(safe-area-inset-top));
+  padding-bottom: .5rem;
+  padding-bottom: max(.5rem, env(safe-area-inset-bottom));
+}
+
+[class~='safe:pv-1'] {
+  padding-top: 1rem;
+  padding-top: max(1rem, env(safe-area-inset-top));
+  padding-bottom: 1rem;
+  padding-bottom: max(1rem, env(safe-area-inset-bottom));
+}
+
+[class~='safe:pv-2'] {
+  padding-top: 2rem;
+  padding-top: max(2rem, env(safe-area-inset-top));
+  padding-bottom: 2rem;
+  padding-bottom: max(2rem, env(safe-area-inset-bottom));
+}
+
+[class~='safe:pv-3'] {
+  padding-top: 3rem;
+  padding-top: max(3rem, env(safe-area-inset-top));
+  padding-bottom: 3rem;
+  padding-bottom: max(3rem, env(safe-area-inset-bottom));
+}
+
+[class~='safe:pv-4'] {
+  padding-top: 4rem;
+  padding-top: max(4rem, env(safe-area-inset-top));
+  padding-bottom: 4rem;
+  padding-bottom: max(4rem, env(safe-area-inset-bottom));
+}
+
+[class~='safe:pv-5'] {
+  padding-top: 5rem;
+  padding-top: max(5rem, env(safe-area-inset-top));
+  padding-bottom: 5rem;
+  padding-bottom: max(5rem, env(safe-area-inset-bottom));
+}
+
+[class~='safe:pv-6'] {
+  padding-top: 6rem;
+  padding-top: max(6rem, env(safe-area-inset-top));
+  padding-bottom: 6rem;
+  padding-bottom: max(6rem, env(safe-area-inset-bottom));
+}
+
+[class~='pt-auto'] {
+  padding-top: auto;
 }
 
 [class~='pt-0'] {
@@ -156,8 +336,48 @@
   padding-top: 6rem;
 }
 
-[class~='pt-safe'] {
-  padding-top: env(safe-area-inset-top);
+[class~='safe:pt-0'] {
+  padding-top: 0;
+  padding-top: max(0, env(safe-area-inset-top));
+}
+
+[class~='safe:pt-1/2'] {
+  padding-top: .5rem;
+  padding-top: max(.5rem, env(safe-area-inset-top));
+}
+
+[class~='safe:pt-1'] {
+  padding-top: 1rem;
+  padding-top: max(1rem, env(safe-area-inset-top));
+}
+
+[class~='safe:pt-2'] {
+  padding-top: 2rem;
+  padding-top: max(2rem, env(safe-area-inset-top));
+}
+
+[class~='safe:pt-3'] {
+  padding-top: 3rem;
+  padding-top: max(3rem, env(safe-area-inset-top));
+}
+
+[class~='safe:pt-4'] {
+  padding-top: 4rem;
+  padding-top: max(4rem, env(safe-area-inset-top));
+}
+
+[class~='safe:pt-5'] {
+  padding-top: 5rem;
+  padding-top: max(5rem, env(safe-area-inset-top));
+}
+
+[class~='safe:pt-6'] {
+  padding-top: 6rem;
+  padding-top: max(6rem, env(safe-area-inset-top));
+}
+
+[class~='pr-auto'] {
+  padding-right: auto;
 }
 
 [class~='pr-0'] {
@@ -192,8 +412,48 @@
   padding-right: 6rem;
 }
 
-[class~='pr-safe'] {
-  padding-right: env(safe-area-inset-right);
+[class~='safe:pr-0'] {
+  padding-right: 0;
+  padding-right: max(0, env(safe-area-inset-right));
+}
+
+[class~='safe:pr-1/2'] {
+  padding-right: .5rem;
+  padding-right: max(.5rem, env(safe-area-inset-right));
+}
+
+[class~='safe:pr-1'] {
+  padding-right: 1rem;
+  padding-right: max(1rem, env(safe-area-inset-right));
+}
+
+[class~='safe:pr-2'] {
+  padding-right: 2rem;
+  padding-right: max(2rem, env(safe-area-inset-right));
+}
+
+[class~='safe:pr-3'] {
+  padding-right: 3rem;
+  padding-right: max(3rem, env(safe-area-inset-right));
+}
+
+[class~='safe:pr-4'] {
+  padding-right: 4rem;
+  padding-right: max(4rem, env(safe-area-inset-right));
+}
+
+[class~='safe:pr-5'] {
+  padding-right: 5rem;
+  padding-right: max(5rem, env(safe-area-inset-right));
+}
+
+[class~='safe:pr-6'] {
+  padding-right: 6rem;
+  padding-right: max(6rem, env(safe-area-inset-right));
+}
+
+[class~='pb-auto'] {
+  padding-bottom: auto;
 }
 
 [class~='pb-0'] {
@@ -228,8 +488,48 @@
   padding-bottom: 6rem;
 }
 
-[class~='pb-safe'] {
-  padding-bottom: env(safe-area-inset-bottom);
+[class~='safe:pb-0'] {
+  padding-bottom: 0;
+  padding-bottom: max(0, env(safe-area-inset-bottom));
+}
+
+[class~='safe:pb-1/2'] {
+  padding-bottom: .5rem;
+  padding-bottom: max(.5rem, env(safe-area-inset-bottom));
+}
+
+[class~='safe:pb-1'] {
+  padding-bottom: 1rem;
+  padding-bottom: max(1rem, env(safe-area-inset-bottom));
+}
+
+[class~='safe:pb-2'] {
+  padding-bottom: 2rem;
+  padding-bottom: max(2rem, env(safe-area-inset-bottom));
+}
+
+[class~='safe:pb-3'] {
+  padding-bottom: 3rem;
+  padding-bottom: max(3rem, env(safe-area-inset-bottom));
+}
+
+[class~='safe:pb-4'] {
+  padding-bottom: 4rem;
+  padding-bottom: max(4rem, env(safe-area-inset-bottom));
+}
+
+[class~='safe:pb-5'] {
+  padding-bottom: 5rem;
+  padding-bottom: max(5rem, env(safe-area-inset-bottom));
+}
+
+[class~='safe:pb-6'] {
+  padding-bottom: 6rem;
+  padding-bottom: max(6rem, env(safe-area-inset-bottom));
+}
+
+[class~='pl-auto'] {
+  padding-left: auto;
 }
 
 [class~='pl-0'] {
@@ -264,6 +564,42 @@
   padding-left: 6rem;
 }
 
-[class~='pl-safe'] {
-  padding-left: env(safe-area-inset-left);
+[class~='safe:pl-0'] {
+  padding-left: 0;
+  padding-left: max(0, env(safe-area-inset-left));
+}
+
+[class~='safe:pl-1/2'] {
+  padding-left: .5rem;
+  padding-left: max(.5rem, env(safe-area-inset-left));
+}
+
+[class~='safe:pl-1'] {
+  padding-left: 1rem;
+  padding-left: max(1rem, env(safe-area-inset-left));
+}
+
+[class~='safe:pl-2'] {
+  padding-left: 2rem;
+  padding-left: max(2rem, env(safe-area-inset-left));
+}
+
+[class~='safe:pl-3'] {
+  padding-left: 3rem;
+  padding-left: max(3rem, env(safe-area-inset-left));
+}
+
+[class~='safe:pl-4'] {
+  padding-left: 4rem;
+  padding-left: max(4rem, env(safe-area-inset-left));
+}
+
+[class~='safe:pl-5'] {
+  padding-left: 5rem;
+  padding-left: max(5rem, env(safe-area-inset-left));
+}
+
+[class~='safe:pl-6'] {
+  padding-left: 6rem;
+  padding-left: max(6rem, env(safe-area-inset-left));
 }

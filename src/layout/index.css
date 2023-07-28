@@ -1,5 +1,5 @@
-@import 'abs';
-@import 'fix';
+@import 'absolute';
+@import 'fixed';
 @import 'edge';
 @import 'margin';
 @import 'padding';
