@@ -27,10 +27,10 @@ function mapCustomMediaToDict(root: Root): Record<string, string[]> {
 
     return {
       ...out,
-      [`[class~='${name}:%s'] %s`]: [query],
+      [`[class~='%s:${name}'] %s`]: [query],
       ...isOrientation ? {} : {
-        [`[class~='${name}:portrait:%s'] %s`]: [query, '(orientation: portrait)'],
-        [`[class~='${name}:landscape:%s'] %s`]: [query, '(orientation: landscape)'],
+        [`[class~='%s:${name}:portrait'] %s`]: [query, '(orientation: portrait)'],
+        [`[class~='%s:${name}:landscape'] %s`]: [query, '(orientation: landscape)'],
       },
     }
   }, {})
