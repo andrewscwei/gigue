@@ -1,13 +1,13 @@
 @custom-media --portrait (orientation: portrait);
 @custom-media --landscape (orientation: landscape);
 
-/* tablet: 640-1024 */
+/* tablet: 640-1079 */
 @custom-media --tablet- (orientation: portrait) and (max-width: 600px), (orientation: landscape) and (max-height: 600px);
 @custom-media --tablet (orientation: portrait) and (min-width: 601px), (orientation: landscape) and (min-height: 601px);
 
-/* notebook: 1025-1439 */
-@custom-media --notebook- (max-width: 1024px) and (max-height: 1024px);
-@custom-media --notebook (min-width: 1025px), (min-height: 1025px);
+/* notebook: 1080-1439 */
+@custom-media --notebook- (max-width: 1079px) and (max-height: 1079px);
+@custom-media --notebook (min-width: 1080px), (min-height: 1080px);
 
 /* desktop: 1440-1919 */
 @custom-media --desktop- (max-width: 1439px) and (max-height: 1439px);
