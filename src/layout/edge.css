@@ -112,7 +112,7 @@
 
 [class~='safe:t-0'] {
   top: 0;
-  top: max(0, env(safe-area-inset-top));
+  top: max(0%, env(safe-area-inset-top));
 }
 
 [class~='safe:t-1/10'] {
@@ -359,7 +359,7 @@
 
 [class~='safe:r-0'] {
   right: 0;
-  right: max(0, env(safe-area-inset-right));
+  right: max(0%, env(safe-area-inset-right));
 }
 
 [class~='safe:r-1/10'] {
@@ -606,7 +606,7 @@
 
 [class~='safe:b-0'] {
   bottom: 0;
-  bottom: max(0, env(safe-area-inset-bottom));
+  bottom: max(0%, env(safe-area-inset-bottom));
 }
 
 [class~='safe:b-1/10'] {
@@ -853,7 +853,7 @@
 
 [class~='safe:l-0'] {
   left: 0;
-  left: max(0, env(safe-area-inset-left));
+  left: max(0%, env(safe-area-inset-left));
 }
 
 [class~='safe:l-1/10'] {
