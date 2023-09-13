@@ -15,3 +15,13 @@
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
 }
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE/Edge */
+  scrollbar-width: none; /* Firefox */
+
+  /* Chrome/Safari/Opera */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
