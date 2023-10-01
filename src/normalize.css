@@ -147,6 +147,7 @@ select[disabled] {
 
 img {
   min-height: 1px;
+  font-size: 0;
 }
 
 a,
