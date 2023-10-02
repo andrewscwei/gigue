@@ -35,7 +35,7 @@
   right: unset;
   top: 50%;
   position: absolute;
-  transform: translateX(0) translateY(50%);
+  transform: translateX(0) translateY(-50%);
 }
 
 .cc {
@@ -45,7 +45,7 @@
   right: unset;
   top: 50%;
   position: absolute;
-  transform: translateX(50%) translateY(50%);
+  transform: translateX(50%) translateY(-50%);
 }
 
 .cr {
@@ -55,7 +55,7 @@
   right: 0;
   top: 50%;
   position: absolute;
-  transform: translateX(0) translateY(50%);
+  transform: translateX(0) translateY(-50%);
 }
 
 .bl {
