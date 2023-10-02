@@ -45,7 +45,7 @@
   right: unset;
   top: 50%;
   position: absolute;
-  transform: translateX(50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .cr {
