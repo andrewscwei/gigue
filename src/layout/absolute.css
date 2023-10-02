@@ -5,15 +5,17 @@
   right: unset;
   top: 0;
   position: absolute;
+  transform: translateX(0) translateY(0);
 }
 
 .tc {
   bottom: unset;
-  left: 0;
-  margin: 0 auto;
-  right: 0;
+  left: 50%;
+  margin: 0;
+  right: unset;
   top: 0;
   position: absolute;
+  transform: translateX(-50%) translateY(0);
 }
 
 .tr {
@@ -23,33 +25,37 @@
   right: 0;
   top: 0;
   position: absolute;
+  transform: translateX(0) translateY(0);
 }
 
 .cl {
-  bottom: 0;
+  bottom: unset;
   left: 0;
-  margin: auto 0;
+  margin: 0;
   right: unset;
-  top: 0;
+  top: 50%;
   position: absolute;
+  transform: translateX(0) translateY(50%);
 }
 
 .cc {
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  right: 0;
-  top: 0;
+  bottom: unset;
+  left: 50%;
+  margin: 0;
+  right: unset;
+  top: 50%;
   position: absolute;
+  transform: translateX(50%) translateY(50%);
 }
 
 .cr {
-  bottom: 0;
+  bottom: unset;
   left: unset;
-  margin: auto 0;
+  margin: 0;
   right: 0;
-  top: 0;
+  top: 50%;
   position: absolute;
+  transform: translateX(0) translateY(50%);
 }
 
 .bl {
@@ -59,15 +65,17 @@
   right: unset;
   top: unset;
   position: absolute;
+  transform: translateX(0) translateY(0);
 }
 
 .bc {
   bottom: 0;
-  left: 0;
-  margin: 0 auto;
-  right: 0;
+  left: 50%;
+  margin: 0;
+  right: unset;
   top: unset;
   position: absolute;
+  transform: translateX(-50%) translateY(0);
 }
 
 .br {
@@ -77,4 +85,5 @@
   right: 0;
   top: unset;
   position: absolute;
+  transform: translateX(0) translateY(0);
 }
