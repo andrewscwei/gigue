@@ -1,0 +1,9 @@
+.cover {
+  object-fit: cover;
+  background-size: cover;
+}
+
+.contian {
+  object-fit: contain;
+  background-size: contain;
+}
