@@ -113,3 +113,43 @@
 .font-mono {
   font-family: var(--font-mono), monospace;
 }
+
+.lspace-0 {
+  letter-spacing: 0;
+}
+
+.lspace-1 {
+  letter-spacing: 0.1rem;
+}
+
+.lspace-2 {
+  letter-spacing: 0.2rem;
+}
+
+.lspace-3 {
+  letter-spacing: 0.3rem;
+}
+
+.lspace-4 {
+  letter-spacing: 0.4rem;
+}
+
+.lspace-5 {
+  letter-spacing: 0.5rem;
+}
+
+.lspace-6 {
+  letter-spacing: 0.6rem;
+}
+
+.lspace-7 {
+  letter-spacing: 0.7rem;
+}
+
+.lspace-8 {
+  letter-spacing: 0.8rem;
+}
+
+.lspace-9 {
+  letter-spacing: 0.9rem;
+}
