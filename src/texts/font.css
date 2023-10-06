@@ -53,3 +53,63 @@
   line-height: inherit;
   text-align: inherit;
 }
+
+.thin {
+  font-weight: 100;
+}
+
+.extra-light {
+  font-weight: 200;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.extra-bold {
+  font-weight: 800;
+}
+
+.black {
+  font-weight: 900;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.font-heading {
+  font-family: var(--font-heading), sans-serif;
+}
+
+.font-body {
+  font-family: var(--font-body), sans-serif;
+}
+
+.font-sans {
+  font-family: var(--font-sans), sans-serif;
+}
+
+.font-serif {
+  font-family: var(--font-serif), serif;
+}
+
+.font-mono {
+  font-family: var(--font-mono), monospace;
+}
