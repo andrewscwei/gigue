@@ -94,24 +94,24 @@
   font-style: italic;
 }
 
-.font-heading {
-  font-family: var(--font-heading), sans-serif;
+.heading-font {
+  font-family: var(--heading-font), sans-serif;
 }
 
-.font-body {
-  font-family: var(--font-body), sans-serif;
+.body-font {
+  font-family: var(--body-font), sans-serif;
 }
 
-.font-sans {
-  font-family: var(--font-sans), sans-serif;
+.sans-font {
+  font-family: var(--sans-font), sans-serif;
 }
 
-.font-serif {
-  font-family: var(--font-serif), serif;
+.serif-font {
+  font-family: var(--serif-font), serif;
 }
 
-.font-mono {
-  font-family: var(--font-mono), monospace;
+.mono-font {
+  font-family: var(--mono-font), monospace;
 }
 
 .lspace-0 {
