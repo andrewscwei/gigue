@@ -94,23 +94,23 @@
   font-style: italic;
 }
 
-.heading-font {
+.font-heading {
   font-family: var(--heading-font), sans-serif;
 }
 
-.body-font {
+.font-body {
   font-family: var(--body-font), sans-serif;
 }
 
-.sans-font {
+.font-sans {
   font-family: var(--sans-font), sans-serif;
 }
 
-.serif-font {
+.font-serif {
   font-family: var(--serif-font), serif;
 }
 
-.mono-font {
+.font-mono {
   font-family: var(--mono-font), monospace;
 }
 
