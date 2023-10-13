@@ -183,3 +183,75 @@
 .lspace-9 {
   letter-spacing: 0.9rem;
 }
+
+.lh-1px {
+  line-height: 1px;
+}
+
+.lh-2px {
+  line-height: 2px;
+}
+
+.lh-3px {
+  line-height: 3px;
+}
+
+.lh-4px {
+  line-height: 4px;
+}
+
+.lh-5px {
+  line-height: 5px;
+}
+
+.lh-6px {
+  line-height: 6px;
+}
+
+.lh-7px {
+  line-height: 7px;
+}
+
+.lh-8px {
+  line-height: 8px;
+}
+
+.lh-9px {
+  line-height: 9px;
+}
+
+.lh-1 {
+  line-height: 1rem;
+}
+
+.lh-2 {
+  line-height: 2rem;
+}
+
+.lh-3 {
+  line-height: 3rem;
+}
+
+.lh-4 {
+  line-height: 4rem;
+}
+
+.lh-5 {
+  line-height: 5rem;
+}
+
+.lh-6 {
+  line-height: 6rem;
+}
+
+.lh-7 {
+  line-height: 7rem;
+}
+
+.lh-8 {
+  line-height: 8rem;
+}
+
+.lh-9 {
+  line-height: 9rem;
+}
