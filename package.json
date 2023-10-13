@@ -1,6 +1,6 @@
 {
   "name": "gigue",
-  "version": "3.0.0-rc.6",
+  "version": "3.0.0-rc.7",
   "description": "Micro CSS library",
   "main": "build/gigue.css",
   "unpkg": "build/gigue.css",
