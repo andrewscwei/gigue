@@ -1,15 +1,30 @@
-.text-3xs {
+.text-6xs {
+  font-size: .8rem;
+  line-height: 150%;
+}
+
+.text-5xs {
+  font-size: .9rem;
+  line-height: 150%;
+}
+
+.text-4xs {
   font-size: 1rem;
   line-height: 150%;
 }
 
-.text-2xs {
+.text-3xs {
   font-size: 1.1rem;
   line-height: 150%;
 }
 
-.text-xs {
+.text-2xs {
   font-size: 1.2rem;
+  line-height: 150%;
+}
+
+.text-xs {
+  font-size: 1.3rem;
   line-height: 150%;
 }
 
@@ -24,22 +39,37 @@
 }
 
 .text-l {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   line-height: 140%;
 }
 
 .text-xl {
-  font-size: 3rem;
+  font-size: 2.4rem;
   line-height: 130%;
 }
 
 .text-2xl {
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 130%;
 }
 
 .text-3xl {
-  font-size: 8rem;
+  font-size: 3.6rem;
+  line-height: 130%;
+}
+
+.text-4xl {
+  font-size: 4.8rem;
+  line-height: 130%;
+}
+
+.text-5xl {
+  font-size: 6rem;
+  line-height: 130%;
+}
+
+.text-6xl {
+  font-size: 10rem;
   line-height: 130%;
 }
 
