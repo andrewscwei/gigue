@@ -9,7 +9,7 @@ import customMedia from './plugins/customMedia'
 import pseudoClasses from './plugins/pseudoClasses'
 import pseudoElements from './plugins/pseudoElements'
 
-export default function(ctx: any) {
+export default function (ctx: any) {
   return {
     plugins: [
       postcssImport(),

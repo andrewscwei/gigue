@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 
-import { Node, Plugin } from 'postcss'
+import { type Node, type Plugin } from 'postcss'
 import { sprintf } from 'sprintf-js'
 import parseSelector from './utils/parseSelector'
 

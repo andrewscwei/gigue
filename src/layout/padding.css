@@ -303,114 +303,82 @@
 
 
 [class~='safe:ph-0'] {
-  padding-right: 0;
   padding-right: max(0%, env(safe-area-inset-right));
-  padding-left: 0;
   padding-left: max(0%, env(safe-area-inset-left));
 }
 
 [class~='safe:ph-1px'] {
-  padding-right: 1px;
   padding-right: max(1px, env(safe-area-inset-right));
-  padding-left: 1px;
   padding-left: max(1px, env(safe-area-inset-left));
 }
 
 [class~='safe:ph-2px'] {
-  padding-right: 2px;
   padding-right: max(2px, env(safe-area-inset-right));
-  padding-left: 2px;
   padding-left: max(2px, env(safe-area-inset-left));
 }
 
 [class~='safe:ph-3px'] {
-  padding-right: 3px;
   padding-right: max(3px, env(safe-area-inset-right));
-  padding-left: 3px;
   padding-left: max(3px, env(safe-area-inset-left));
 }
 
 [class~='safe:ph-4px'] {
-  padding-right: 4px;
   padding-right: max(4px, env(safe-area-inset-right));
-  padding-left: 4px;
   padding-left: max(4px, env(safe-area-inset-left));
 }
 
 [class~='safe:ph-5px'] {
-  padding-right: 5px;
   padding-right: max(5px, env(safe-area-inset-right));
-  padding-left: 5px;
   padding-left: max(5px, env(safe-area-inset-left));
 }
 
 [class~='safe:ph-6px'] {
-  padding-right: 6px;
   padding-right: max(6px, env(safe-area-inset-right));
-  padding-left: 6px;
   padding-left: max(6px, env(safe-area-inset-left));
 }
 
 [class~='safe:ph-1'] {
-  padding-right: 1rem;
   padding-right: max(1rem, env(safe-area-inset-right));
-  padding-left: 1rem;
   padding-left: max(1rem, env(safe-area-inset-left));
 }
 
 [class~='safe:ph-2'] {
-  padding-right: 2rem;
   padding-right: max(2rem, env(safe-area-inset-right));
-  padding-left: 2rem;
   padding-left: max(2rem, env(safe-area-inset-left));
 }
 
 [class~='safe:ph-3'] {
-  padding-right: 3rem;
   padding-right: max(3rem, env(safe-area-inset-right));
-  padding-left: 3rem;
   padding-left: max(3rem, env(safe-area-inset-left));
 }
 
 [class~='safe:ph-4'] {
-  padding-right: 4rem;
   padding-right: max(4rem, env(safe-area-inset-right));
-  padding-left: 4rem;
   padding-left: max(4rem, env(safe-area-inset-left));
 }
 
 [class~='safe:ph-5'] {
-  padding-right: 5rem;
   padding-right: max(5rem, env(safe-area-inset-right));
-  padding-left: 5rem;
   padding-left: max(5rem, env(safe-area-inset-left));
 }
 
 [class~='safe:ph-6'] {
-  padding-right: 6rem;
   padding-right: max(6rem, env(safe-area-inset-right));
-  padding-left: 6rem;
   padding-left: max(6rem, env(safe-area-inset-left));
 }
 
 [class~='safe:ph-7'] {
-  padding-right: 7rem;
   padding-right: max(7rem, env(safe-area-inset-right));
-  padding-left: 7rem;
   padding-left: max(7rem, env(safe-area-inset-left));
 }
 
 [class~='safe:ph-8'] {
-  padding-right: 8rem;
   padding-right: max(8rem, env(safe-area-inset-right));
-  padding-left: 8rem;
   padding-left: max(8rem, env(safe-area-inset-left));
 }
 
 [class~='safe:ph-9'] {
-  padding-right: 9rem;
   padding-right: max(9rem, env(safe-area-inset-right));
-  padding-left: 9rem;
   padding-left: max(9rem, env(safe-area-inset-left));
 }
 
@@ -515,135 +483,97 @@
 }
 
 [class~='safe:pv-0'] {
-  padding-top: 0;
   padding-top: max(0%, env(safe-area-inset-top));
-  padding-bottom: 0;
   padding-bottom: max(0%, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pv-1px'] {
-  padding-top: 1px;
   padding-top: max(1px, env(safe-area-inset-top));
-  padding-bottom: 1px;
   padding-bottom: max(1px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pv-2px'] {
-  padding-top: 2px;
   padding-top: max(2px, env(safe-area-inset-top));
-  padding-bottom: 2px;
   padding-bottom: max(2px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pv-3px'] {
-  padding-top: 3px;
   padding-top: max(3px, env(safe-area-inset-top));
-  padding-bottom: 3px;
   padding-bottom: max(3px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pv-4px'] {
-  padding-top: 4px;
   padding-top: max(4px, env(safe-area-inset-top));
-  padding-bottom: 4px;
   padding-bottom: max(4px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pv-5px'] {
-  padding-top: 5px;
   padding-top: max(5px, env(safe-area-inset-top));
-  padding-bottom: 5px;
   padding-bottom: max(5px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pv-6px'] {
-  padding-top: 6px;
   padding-top: max(6px, env(safe-area-inset-top));
-  padding-bottom: 6px;
   padding-bottom: max(6px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pv-7px'] {
-  padding-top: 7px;
   padding-top: max(7px, env(safe-area-inset-top));
-  padding-bottom: 7px;
   padding-bottom: max(7px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pv-8px'] {
-  padding-top: 8px;
   padding-top: max(8px, env(safe-area-inset-top));
-  padding-bottom: 8px;
   padding-bottom: max(8px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pv-9px'] {
-  padding-top: 9px;
   padding-top: max(9px, env(safe-area-inset-top));
-  padding-bottom: 9px;
   padding-bottom: max(9px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pv-1'] {
-  padding-top: 1rem;
   padding-top: max(1rem, env(safe-area-inset-top));
-  padding-bottom: 1rem;
   padding-bottom: max(1rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pv-2'] {
-  padding-top: 2rem;
   padding-top: max(2rem, env(safe-area-inset-top));
-  padding-bottom: 2rem;
   padding-bottom: max(2rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pv-3'] {
-  padding-top: 3rem;
   padding-top: max(3rem, env(safe-area-inset-top));
-  padding-bottom: 3rem;
   padding-bottom: max(3rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pv-4'] {
-  padding-top: 4rem;
   padding-top: max(4rem, env(safe-area-inset-top));
-  padding-bottom: 4rem;
   padding-bottom: max(4rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pv-5'] {
-  padding-top: 5rem;
   padding-top: max(5rem, env(safe-area-inset-top));
-  padding-bottom: 5rem;
   padding-bottom: max(5rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pv-6'] {
-  padding-top: 6rem;
   padding-top: max(6rem, env(safe-area-inset-top));
-  padding-bottom: 6rem;
   padding-bottom: max(6rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pv-7'] {
-  padding-top: 7rem;
   padding-top: max(7rem, env(safe-area-inset-top));
-  padding-bottom: 7rem;
   padding-bottom: max(7rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pv-8'] {
-  padding-top: 8rem;
   padding-top: max(8rem, env(safe-area-inset-top));
-  padding-bottom: 8rem;
   padding-bottom: max(8rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pv-9'] {
-  padding-top: 9rem;
   padding-top: max(9rem, env(safe-area-inset-top));
-  padding-bottom: 9rem;
   padding-bottom: max(9rem, env(safe-area-inset-bottom));
 }
 
@@ -716,97 +646,78 @@
 }
 
 [class~='safe:pt-0'] {
-  padding-top: 0;
   padding-top: max(0%, env(safe-area-inset-top));
 }
 
 [class~='safe:pt-1px'] {
-  padding-top: 1px;
   padding-top: max(1px, env(safe-area-inset-top));
 }
 
 [class~='safe:pt-2px'] {
-  padding-top: 2px;
   padding-top: max(2px, env(safe-area-inset-top));
 }
 
 [class~='safe:pt-3px'] {
-  padding-top: 3px;
   padding-top: max(3px, env(safe-area-inset-top));
 }
 
 [class~='safe:pt-4px'] {
-  padding-top: 4px;
   padding-top: max(4px, env(safe-area-inset-top));
 }
 
 [class~='safe:pt-5px'] {
-  padding-top: 5px;
   padding-top: max(5px, env(safe-area-inset-top));
 }
 
 [class~='safe:pt-6px'] {
-  padding-top: 6px;
   padding-top: max(6px, env(safe-area-inset-top));
 }
 
 [class~='safe:pt-7px'] {
-  padding-top: 7px;
   padding-top: max(7px, env(safe-area-inset-top));
 }
 
 [class~='safe:pt-8px'] {
-  padding-top: 8px;
   padding-top: max(8px, env(safe-area-inset-top));
 }
 
 [class~='safe:pt-9px'] {
-  padding-top: 9px;
   padding-top: max(9px, env(safe-area-inset-top));
 }
 
 [class~='safe:pt-1'] {
-  padding-top: 1rem;
   padding-top: max(1rem, env(safe-area-inset-top));
 }
 
 [class~='safe:pt-2'] {
-  padding-top: 2rem;
   padding-top: max(2rem, env(safe-area-inset-top));
 }
 
 [class~='safe:pt-3'] {
-  padding-top: 3rem;
   padding-top: max(3rem, env(safe-area-inset-top));
 }
 
 [class~='safe:pt-4'] {
-  padding-top: 4rem;
   padding-top: max(4rem, env(safe-area-inset-top));
 }
 
 [class~='safe:pt-5'] {
-  padding-top: 5rem;
   padding-top: max(5rem, env(safe-area-inset-top));
 }
 
 [class~='safe:pt-6'] {
-  padding-top: 6rem;
   padding-top: max(6rem, env(safe-area-inset-top));
 }
 
 [class~='safe:pt-7'] {
-  padding-top: 7rem;
   padding-top: max(7rem, env(safe-area-inset-top));
 }
 
 [class~='safe:pt-8'] {
-  padding-top: 8rem;
   padding-top: max(8rem, env(safe-area-inset-top));
 }
 
 [class~='safe:pt-9'] {
-  padding-top: 9rem;
   padding-top: max(9rem, env(safe-area-inset-top));
 }
 
@@ -891,97 +802,78 @@
 }
 
 [class~='safe:pr-0'] {
-  padding-right: 0;
   padding-right: max(0%, env(safe-area-inset-right));
 }
 
 [class~='safe:pr-1px'] {
-  padding-right: 1px;
   padding-right: max(1px, env(safe-area-inset-right));
 }
 
 [class~='safe:pr-2px'] {
-  padding-right: 2px;
   padding-right: max(2px, env(safe-area-inset-right));
 }
 
 [class~='safe:pr-3px'] {
-  padding-right: 3px;
   padding-right: max(3px, env(safe-area-inset-right));
 }
 
 [class~='safe:pr-4px'] {
-  padding-right: 4px;
   padding-right: max(4px, env(safe-area-inset-right));
 }
 
 [class~='safe:pr-5px'] {
-  padding-right: 5px;
   padding-right: max(5px, env(safe-area-inset-right));
 }
 
 [class~='safe:pr-6px'] {
-  padding-right: 6px;
   padding-right: max(6px, env(safe-area-inset-right));
 }
 
 [class~='safe:pr-7px'] {
-  padding-right: 7px;
   padding-right: max(7px, env(safe-area-inset-right));
 }
 
 [class~='safe:pr-8px'] {
-  padding-right: 8px;
   padding-right: max(8px, env(safe-area-inset-right));
 }
 
 [class~='safe:pr-9px'] {
-  padding-right: 9px;
   padding-right: max(9px, env(safe-area-inset-right));
 }
 
 [class~='safe:pr-1'] {
-  padding-right: 1rem;
   padding-right: max(1rem, env(safe-area-inset-right));
 }
 
 [class~='safe:pr-2'] {
-  padding-right: 2rem;
   padding-right: max(2rem, env(safe-area-inset-right));
 }
 
 [class~='safe:pr-3'] {
-  padding-right: 3rem;
   padding-right: max(3rem, env(safe-area-inset-right));
 }
 
 [class~='safe:pr-4'] {
-  padding-right: 4rem;
   padding-right: max(4rem, env(safe-area-inset-right));
 }
 
 [class~='safe:pr-5'] {
-  padding-right: 5rem;
   padding-right: max(5rem, env(safe-area-inset-right));
 }
 
 [class~='safe:pr-6'] {
-  padding-right: 6rem;
   padding-right: max(6rem, env(safe-area-inset-right));
 }
 
 [class~='safe:pr-7'] {
-  padding-right: 7rem;
   padding-right: max(7rem, env(safe-area-inset-right));
 }
 
 [class~='safe:pr-8'] {
-  padding-right: 8rem;
   padding-right: max(8rem, env(safe-area-inset-right));
 }
 
 [class~='safe:pr-9'] {
-  padding-right: 9rem;
   padding-right: max(9rem, env(safe-area-inset-right));
 }
 
@@ -1066,97 +958,78 @@
 }
 
 [class~='safe:pb-0'] {
-  padding-bottom: 0;
   padding-bottom: max(0%, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pb-1px'] {
-  padding-bottom: 1px;
   padding-bottom: max(1px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pb-2px'] {
-  padding-bottom: 2px;
   padding-bottom: max(2px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pb-3px'] {
-  padding-bottom: 3px;
   padding-bottom: max(3px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pb-4px'] {
-  padding-bottom: 4px;
   padding-bottom: max(4px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pb-5px'] {
-  padding-bottom: 5px;
   padding-bottom: max(5px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pb-6px'] {
-  padding-bottom: 6px;
   padding-bottom: max(6px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pb-7px'] {
-  padding-bottom: 7px;
   padding-bottom: max(7px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pb-8px'] {
-  padding-bottom: 8px;
   padding-bottom: max(8px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pb-9px'] {
-  padding-bottom: 9px;
   padding-bottom: max(9px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pb-1'] {
-  padding-bottom: 1rem;
   padding-bottom: max(1rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pb-2'] {
-  padding-bottom: 2rem;
   padding-bottom: max(2rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pb-3'] {
-  padding-bottom: 3rem;
   padding-bottom: max(3rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pb-4'] {
-  padding-bottom: 4rem;
   padding-bottom: max(4rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pb-5'] {
-  padding-bottom: 5rem;
   padding-bottom: max(5rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pb-6'] {
-  padding-bottom: 6rem;
   padding-bottom: max(6rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pb-7'] {
-  padding-bottom: 7rem;
   padding-bottom: max(7rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pb-8'] {
-  padding-bottom: 8rem;
   padding-bottom: max(8rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:pb-9'] {
-  padding-bottom: 9rem;
   padding-bottom: max(9rem, env(safe-area-inset-bottom));
 }
 
@@ -1241,96 +1114,77 @@
 }
 
 [class~='safe:pl-0'] {
-  padding-left: 0;
   padding-left: max(0%, env(safe-area-inset-left));
 }
 
 [class~='safe:pl-1px'] {
-  padding-left: 1px;
   padding-left: max(1px, env(safe-area-inset-left));
 }
 
 [class~='safe:pl-2px'] {
-  padding-left: 2px;
   padding-left: max(2px, env(safe-area-inset-left));
 }
 
 [class~='safe:pl-3px'] {
-  padding-left: 3px;
   padding-left: max(3px, env(safe-area-inset-left));
 }
 
 [class~='safe:pl-4px'] {
-  padding-left: 4px;
   padding-left: max(4px, env(safe-area-inset-left));
 }
 
 [class~='safe:pl-5px'] {
-  padding-left: 5px;
   padding-left: max(5px, env(safe-area-inset-left));
 }
 
 [class~='safe:pl-6px'] {
-  padding-left: 6px;
   padding-left: max(6px, env(safe-area-inset-left));
 }
 
 [class~='safe:pl-7px'] {
-  padding-left: 7px;
   padding-left: max(7px, env(safe-area-inset-left));
 }
 
 [class~='safe:pl-8px'] {
-  padding-left: 8px;
   padding-left: max(8px, env(safe-area-inset-left));
 }
 
 [class~='safe:pl-9px'] {
-  padding-left: 9px;
   padding-left: max(9px, env(safe-area-inset-left));
 }
 
 [class~='safe:pl-1'] {
-  padding-left: 1rem;
   padding-left: max(1rem, env(safe-area-inset-left));
 }
 
 [class~='safe:pl-2'] {
-  padding-left: 2rem;
   padding-left: max(2rem, env(safe-area-inset-left));
 }
 
 [class~='safe:pl-3'] {
-  padding-left: 3rem;
   padding-left: max(3rem, env(safe-area-inset-left));
 }
 
 [class~='safe:pl-4'] {
-  padding-left: 4rem;
   padding-left: max(4rem, env(safe-area-inset-left));
 }
 
 [class~='safe:pl-5'] {
-  padding-left: 5rem;
   padding-left: max(5rem, env(safe-area-inset-left));
 }
 
 [class~='safe:pl-6'] {
-  padding-left: 6rem;
   padding-left: max(6rem, env(safe-area-inset-left));
 }
 
 [class~='safe:pl-7'] {
-  padding-left: 7rem;
   padding-left: max(7rem, env(safe-area-inset-left));
 }
 
 [class~='safe:pl-8'] {
-  padding-left: 8rem;
   padding-left: max(8rem, env(safe-area-inset-left));
 }
 
 [class~='safe:pl-9'] {
-  padding-left: 9rem;
   padding-left: max(9rem, env(safe-area-inset-left));
 }

@@ -303,114 +303,82 @@
 
 
 [class~='safe:mh-0'] {
-  margin-right: 0;
   margin-right: max(0%, env(safe-area-inset-right));
-  margin-left: 0;
   margin-left: max(0%, env(safe-area-inset-left));
 }
 
 [class~='safe:mh-1px'] {
-  margin-right: 1px;
   margin-right: max(1px, env(safe-area-inset-right));
-  margin-left: 1px;
   margin-left: max(1px, env(safe-area-inset-left));
 }
 
 [class~='safe:mh-2px'] {
-  margin-right: 2px;
   margin-right: max(2px, env(safe-area-inset-right));
-  margin-left: 2px;
   margin-left: max(2px, env(safe-area-inset-left));
 }
 
 [class~='safe:mh-3px'] {
-  margin-right: 3px;
   margin-right: max(3px, env(safe-area-inset-right));
-  margin-left: 3px;
   margin-left: max(3px, env(safe-area-inset-left));
 }
 
 [class~='safe:mh-4px'] {
-  margin-right: 4px;
   margin-right: max(4px, env(safe-area-inset-right));
-  margin-left: 4px;
   margin-left: max(4px, env(safe-area-inset-left));
 }
 
 [class~='safe:mh-5px'] {
-  margin-right: 5px;
   margin-right: max(5px, env(safe-area-inset-right));
-  margin-left: 5px;
   margin-left: max(5px, env(safe-area-inset-left));
 }
 
 [class~='safe:mh-6px'] {
-  margin-right: 6px;
   margin-right: max(6px, env(safe-area-inset-right));
-  margin-left: 6px;
   margin-left: max(6px, env(safe-area-inset-left));
 }
 
 [class~='safe:mh-1'] {
-  margin-right: 1rem;
   margin-right: max(1rem, env(safe-area-inset-right));
-  margin-left: 1rem;
   margin-left: max(1rem, env(safe-area-inset-left));
 }
 
 [class~='safe:mh-2'] {
-  margin-right: 2rem;
   margin-right: max(2rem, env(safe-area-inset-right));
-  margin-left: 2rem;
   margin-left: max(2rem, env(safe-area-inset-left));
 }
 
 [class~='safe:mh-3'] {
-  margin-right: 3rem;
   margin-right: max(3rem, env(safe-area-inset-right));
-  margin-left: 3rem;
   margin-left: max(3rem, env(safe-area-inset-left));
 }
 
 [class~='safe:mh-4'] {
-  margin-right: 4rem;
   margin-right: max(4rem, env(safe-area-inset-right));
-  margin-left: 4rem;
   margin-left: max(4rem, env(safe-area-inset-left));
 }
 
 [class~='safe:mh-5'] {
-  margin-right: 5rem;
   margin-right: max(5rem, env(safe-area-inset-right));
-  margin-left: 5rem;
   margin-left: max(5rem, env(safe-area-inset-left));
 }
 
 [class~='safe:mh-6'] {
-  margin-right: 6rem;
   margin-right: max(6rem, env(safe-area-inset-right));
-  margin-left: 6rem;
   margin-left: max(6rem, env(safe-area-inset-left));
 }
 
 [class~='safe:mh-7'] {
-  margin-right: 7rem;
   margin-right: max(7rem, env(safe-area-inset-right));
-  margin-left: 7rem;
   margin-left: max(7rem, env(safe-area-inset-left));
 }
 
 [class~='safe:mh-8'] {
-  margin-right: 8rem;
   margin-right: max(8rem, env(safe-area-inset-right));
-  margin-left: 8rem;
   margin-left: max(8rem, env(safe-area-inset-left));
 }
 
 [class~='safe:mh-9'] {
-  margin-right: 9rem;
   margin-right: max(9rem, env(safe-area-inset-right));
-  margin-left: 9rem;
   margin-left: max(9rem, env(safe-area-inset-left));
 }
 
@@ -515,135 +483,97 @@
 }
 
 [class~='safe:mv-0'] {
-  margin-top: 0;
   margin-top: max(0%, env(safe-area-inset-top));
-  margin-bottom: 0;
   margin-bottom: max(0%, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mv-1px'] {
-  margin-top: 1px;
   margin-top: max(1px, env(safe-area-inset-top));
-  margin-bottom: 1px;
   margin-bottom: max(1px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mv-2px'] {
-  margin-top: 2px;
   margin-top: max(2px, env(safe-area-inset-top));
-  margin-bottom: 2px;
   margin-bottom: max(2px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mv-3px'] {
-  margin-top: 3px;
   margin-top: max(3px, env(safe-area-inset-top));
-  margin-bottom: 3px;
   margin-bottom: max(3px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mv-4px'] {
-  margin-top: 4px;
   margin-top: max(4px, env(safe-area-inset-top));
-  margin-bottom: 4px;
   margin-bottom: max(4px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mv-5px'] {
-  margin-top: 5px;
   margin-top: max(5px, env(safe-area-inset-top));
-  margin-bottom: 5px;
   margin-bottom: max(5px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mv-6px'] {
-  margin-top: 6px;
   margin-top: max(6px, env(safe-area-inset-top));
-  margin-bottom: 6px;
   margin-bottom: max(6px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mv-7px'] {
-  margin-top: 7px;
   margin-top: max(7px, env(safe-area-inset-top));
-  margin-bottom: 7px;
   margin-bottom: max(7px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mv-8px'] {
-  margin-top: 8px;
   margin-top: max(8px, env(safe-area-inset-top));
-  margin-bottom: 8px;
   margin-bottom: max(8px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mv-9px'] {
-  margin-top: 9px;
   margin-top: max(9px, env(safe-area-inset-top));
-  margin-bottom: 9px;
   margin-bottom: max(9px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mv-1'] {
-  margin-top: 1rem;
   margin-top: max(1rem, env(safe-area-inset-top));
-  margin-bottom: 1rem;
   margin-bottom: max(1rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mv-2'] {
-  margin-top: 2rem;
   margin-top: max(2rem, env(safe-area-inset-top));
-  margin-bottom: 2rem;
   margin-bottom: max(2rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mv-3'] {
-  margin-top: 3rem;
   margin-top: max(3rem, env(safe-area-inset-top));
-  margin-bottom: 3rem;
   margin-bottom: max(3rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mv-4'] {
-  margin-top: 4rem;
   margin-top: max(4rem, env(safe-area-inset-top));
-  margin-bottom: 4rem;
   margin-bottom: max(4rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mv-5'] {
-  margin-top: 5rem;
   margin-top: max(5rem, env(safe-area-inset-top));
-  margin-bottom: 5rem;
   margin-bottom: max(5rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mv-6'] {
-  margin-top: 6rem;
   margin-top: max(6rem, env(safe-area-inset-top));
-  margin-bottom: 6rem;
   margin-bottom: max(6rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mv-7'] {
-  margin-top: 7rem;
   margin-top: max(7rem, env(safe-area-inset-top));
-  margin-bottom: 7rem;
   margin-bottom: max(7rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mv-8'] {
-  margin-top: 8rem;
   margin-top: max(8rem, env(safe-area-inset-top));
-  margin-bottom: 8rem;
   margin-bottom: max(8rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mv-9'] {
-  margin-top: 9rem;
   margin-top: max(9rem, env(safe-area-inset-top));
-  margin-bottom: 9rem;
   margin-bottom: max(9rem, env(safe-area-inset-bottom));
 }
 
@@ -716,97 +646,78 @@
 }
 
 [class~='safe:mt-0'] {
-  margin-top: 0;
   margin-top: max(0%, env(safe-area-inset-top));
 }
 
 [class~='safe:mt-1px'] {
-  margin-top: 1px;
   margin-top: max(1px, env(safe-area-inset-top));
 }
 
 [class~='safe:mt-2px'] {
-  margin-top: 2px;
   margin-top: max(2px, env(safe-area-inset-top));
 }
 
 [class~='safe:mt-3px'] {
-  margin-top: 3px;
   margin-top: max(3px, env(safe-area-inset-top));
 }
 
 [class~='safe:mt-4px'] {
-  margin-top: 4px;
   margin-top: max(4px, env(safe-area-inset-top));
 }
 
 [class~='safe:mt-5px'] {
-  margin-top: 5px;
   margin-top: max(5px, env(safe-area-inset-top));
 }
 
 [class~='safe:mt-6px'] {
-  margin-top: 6px;
   margin-top: max(6px, env(safe-area-inset-top));
 }
 
 [class~='safe:mt-7px'] {
-  margin-top: 7px;
   margin-top: max(7px, env(safe-area-inset-top));
 }
 
 [class~='safe:mt-8px'] {
-  margin-top: 8px;
   margin-top: max(8px, env(safe-area-inset-top));
 }
 
 [class~='safe:mt-9px'] {
-  margin-top: 9px;
   margin-top: max(9px, env(safe-area-inset-top));
 }
 
 [class~='safe:mt-1'] {
-  margin-top: 1rem;
   margin-top: max(1rem, env(safe-area-inset-top));
 }
 
 [class~='safe:mt-2'] {
-  margin-top: 2rem;
   margin-top: max(2rem, env(safe-area-inset-top));
 }
 
 [class~='safe:mt-3'] {
-  margin-top: 3rem;
   margin-top: max(3rem, env(safe-area-inset-top));
 }
 
 [class~='safe:mt-4'] {
-  margin-top: 4rem;
   margin-top: max(4rem, env(safe-area-inset-top));
 }
 
 [class~='safe:mt-5'] {
-  margin-top: 5rem;
   margin-top: max(5rem, env(safe-area-inset-top));
 }
 
 [class~='safe:mt-6'] {
-  margin-top: 6rem;
   margin-top: max(6rem, env(safe-area-inset-top));
 }
 
 [class~='safe:mt-7'] {
-  margin-top: 7rem;
   margin-top: max(7rem, env(safe-area-inset-top));
 }
 
 [class~='safe:mt-8'] {
-  margin-top: 8rem;
   margin-top: max(8rem, env(safe-area-inset-top));
 }
 
 [class~='safe:mt-9'] {
-  margin-top: 9rem;
   margin-top: max(9rem, env(safe-area-inset-top));
 }
 
@@ -891,97 +802,78 @@
 }
 
 [class~='safe:mr-0'] {
-  margin-right: 0;
   margin-right: max(0%, env(safe-area-inset-right));
 }
 
 [class~='safe:mr-1px'] {
-  margin-right: 1px;
   margin-right: max(1px, env(safe-area-inset-right));
 }
 
 [class~='safe:mr-2px'] {
-  margin-right: 2px;
   margin-right: max(2px, env(safe-area-inset-right));
 }
 
 [class~='safe:mr-3px'] {
-  margin-right: 3px;
   margin-right: max(3px, env(safe-area-inset-right));
 }
 
 [class~='safe:mr-4px'] {
-  margin-right: 4px;
   margin-right: max(4px, env(safe-area-inset-right));
 }
 
 [class~='safe:mr-5px'] {
-  margin-right: 5px;
   margin-right: max(5px, env(safe-area-inset-right));
 }
 
 [class~='safe:mr-6px'] {
-  margin-right: 6px;
   margin-right: max(6px, env(safe-area-inset-right));
 }
 
 [class~='safe:mr-7px'] {
-  margin-right: 7px;
   margin-right: max(7px, env(safe-area-inset-right));
 }
 
 [class~='safe:mr-8px'] {
-  margin-right: 8px;
   margin-right: max(8px, env(safe-area-inset-right));
 }
 
 [class~='safe:mr-9px'] {
-  margin-right: 9px;
   margin-right: max(9px, env(safe-area-inset-right));
 }
 
 [class~='safe:mr-1'] {
-  margin-right: 1rem;
   margin-right: max(1rem, env(safe-area-inset-right));
 }
 
 [class~='safe:mr-2'] {
-  margin-right: 2rem;
   margin-right: max(2rem, env(safe-area-inset-right));
 }
 
 [class~='safe:mr-3'] {
-  margin-right: 3rem;
   margin-right: max(3rem, env(safe-area-inset-right));
 }
 
 [class~='safe:mr-4'] {
-  margin-right: 4rem;
   margin-right: max(4rem, env(safe-area-inset-right));
 }
 
 [class~='safe:mr-5'] {
-  margin-right: 5rem;
   margin-right: max(5rem, env(safe-area-inset-right));
 }
 
 [class~='safe:mr-6'] {
-  margin-right: 6rem;
   margin-right: max(6rem, env(safe-area-inset-right));
 }
 
 [class~='safe:mr-7'] {
-  margin-right: 7rem;
   margin-right: max(7rem, env(safe-area-inset-right));
 }
 
 [class~='safe:mr-8'] {
-  margin-right: 8rem;
   margin-right: max(8rem, env(safe-area-inset-right));
 }
 
 [class~='safe:mr-9'] {
-  margin-right: 9rem;
   margin-right: max(9rem, env(safe-area-inset-right));
 }
 
@@ -1066,97 +958,78 @@
 }
 
 [class~='safe:mb-0'] {
-  margin-bottom: 0;
   margin-bottom: max(0%, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mb-1px'] {
-  margin-bottom: 1px;
   margin-bottom: max(1px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mb-2px'] {
-  margin-bottom: 2px;
   margin-bottom: max(2px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mb-3px'] {
-  margin-bottom: 3px;
   margin-bottom: max(3px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mb-4px'] {
-  margin-bottom: 4px;
   margin-bottom: max(4px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mb-5px'] {
-  margin-bottom: 5px;
   margin-bottom: max(5px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mb-6px'] {
-  margin-bottom: 6px;
   margin-bottom: max(6px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mb-7px'] {
-  margin-bottom: 7px;
   margin-bottom: max(7px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mb-8px'] {
-  margin-bottom: 8px;
   margin-bottom: max(8px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mb-9px'] {
-  margin-bottom: 9px;
   margin-bottom: max(9px, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mb-1'] {
-  margin-bottom: 1rem;
   margin-bottom: max(1rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mb-2'] {
-  margin-bottom: 2rem;
   margin-bottom: max(2rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mb-3'] {
-  margin-bottom: 3rem;
   margin-bottom: max(3rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mb-4'] {
-  margin-bottom: 4rem;
   margin-bottom: max(4rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mb-5'] {
-  margin-bottom: 5rem;
   margin-bottom: max(5rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mb-6'] {
-  margin-bottom: 6rem;
   margin-bottom: max(6rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mb-7'] {
-  margin-bottom: 7rem;
   margin-bottom: max(7rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mb-8'] {
-  margin-bottom: 8rem;
   margin-bottom: max(8rem, env(safe-area-inset-bottom));
 }
 
 [class~='safe:mb-9'] {
-  margin-bottom: 9rem;
   margin-bottom: max(9rem, env(safe-area-inset-bottom));
 }
 
@@ -1241,96 +1114,77 @@
 }
 
 [class~='safe:ml-0'] {
-  margin-left: 0;
   margin-left: max(0%, env(safe-area-inset-left));
 }
 
 [class~='safe:ml-1px'] {
-  margin-left: 1px;
   margin-left: max(1px, env(safe-area-inset-left));
 }
 
 [class~='safe:ml-2px'] {
-  margin-left: 2px;
   margin-left: max(2px, env(safe-area-inset-left));
 }
 
 [class~='safe:ml-3px'] {
-  margin-left: 3px;
   margin-left: max(3px, env(safe-area-inset-left));
 }
 
 [class~='safe:ml-4px'] {
-  margin-left: 4px;
   margin-left: max(4px, env(safe-area-inset-left));
 }
 
 [class~='safe:ml-5px'] {
-  margin-left: 5px;
   margin-left: max(5px, env(safe-area-inset-left));
 }
 
 [class~='safe:ml-6px'] {
-  margin-left: 6px;
   margin-left: max(6px, env(safe-area-inset-left));
 }
 
 [class~='safe:ml-7px'] {
-  margin-left: 7px;
   margin-left: max(7px, env(safe-area-inset-left));
 }
 
 [class~='safe:ml-8px'] {
-  margin-left: 8px;
   margin-left: max(8px, env(safe-area-inset-left));
 }
 
 [class~='safe:ml-9px'] {
-  margin-left: 9px;
   margin-left: max(9px, env(safe-area-inset-left));
 }
 
 [class~='safe:ml-1'] {
-  margin-left: 1rem;
   margin-left: max(1rem, env(safe-area-inset-left));
 }
 
 [class~='safe:ml-2'] {
-  margin-left: 2rem;
   margin-left: max(2rem, env(safe-area-inset-left));
 }
 
 [class~='safe:ml-3'] {
-  margin-left: 3rem;
   margin-left: max(3rem, env(safe-area-inset-left));
 }
 
 [class~='safe:ml-4'] {
-  margin-left: 4rem;
   margin-left: max(4rem, env(safe-area-inset-left));
 }
 
 [class~='safe:ml-5'] {
-  margin-left: 5rem;
   margin-left: max(5rem, env(safe-area-inset-left));
 }
 
 [class~='safe:ml-6'] {
-  margin-left: 6rem;
   margin-left: max(6rem, env(safe-area-inset-left));
 }
 
 [class~='safe:ml-7'] {
-  margin-left: 7rem;
   margin-left: max(7rem, env(safe-area-inset-left));
 }
 
 [class~='safe:ml-8'] {
-  margin-left: 8rem;
   margin-left: max(8rem, env(safe-area-inset-left));
 }
 
 [class~='safe:ml-9'] {
-  margin-left: 9rem;
   margin-left: max(9rem, env(safe-area-inset-left));
 }

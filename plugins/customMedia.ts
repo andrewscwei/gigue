@@ -2,7 +2,7 @@
 
 import fs from 'fs'
 import path from 'path'
-import postcss, { AtRule, Node, Plugin, Root } from 'postcss'
+import postcss, { AtRule, type Node, type Plugin, type Root } from 'postcss'
 import { sprintf } from 'sprintf-js'
 import parseSelector from './utils/parseSelector'
 
