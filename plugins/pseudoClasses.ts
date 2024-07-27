@@ -1,12 +1,12 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 
-import { Declaration, type Node, type Plugin, Rule } from 'postcss'
+import { Declaration, type Node, type Plugin } from 'postcss'
 import { sprintf } from 'sprintf-js'
 import parseSelector from './utils/parseSelector'
 
 const DICT: string[] = [
-  '[class~=\'before:%s\']::before %s',
-  '[class~=\'after:%s\']::after %s',
+  '.before\\:%s::before%s %s',
+  '.after\\:%s::after%s %s',
 ]
 
 const plugin = (): Plugin => {
@@ -18,13 +18,14 @@ const plugin = (): Plugin => {
       const selector = rule.selector
 
       for (const pseudoClass of DICT) {
-        const { className, subselector } = parseSelector(selector)
+        const { className, subselector, pseudo } = parseSelector(selector)
 
         if (!className) break
 
         const newRule = rule.clone()
-        const newSelector = sprintf(pseudoClass, className, subselector)
+        const newSelector = sprintf(pseudoClass, className, pseudo, subselector)
         newRule.selector = newSelector
+        newRule.append(new Declaration({ prop: 'content', value: '""' }))
 
         nodesToAppend.push(newRule)
       }
@@ -33,15 +34,6 @@ const plugin = (): Plugin => {
       for (const node of nodesToAppend) {
         root.append(node)
       }
-
-      const beforeRule = new Rule({ selector: '[class*="before:"]::before' })
-      beforeRule.append(new Declaration({ prop: 'content', value: '""' }))
-
-      const afterRule = new Rule({ selector: '[class*="after:"]::after' })
-      afterRule.append(new Declaration({ prop: 'content', value: '""' }))
-
-      root.append(beforeRule)
-      root.append(afterRule)
     },
   }
 }

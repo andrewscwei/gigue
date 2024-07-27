@@ -19,11 +19,16 @@
 }
 
 .no-scrollbar {
-  -ms-overflow-style: none; /* IE/Edge */
-  scrollbar-width: none; /* Firefox */
+
+  /* IE/Edge */
+  -ms-overflow-style: none;
+
+  /* Firefox */
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
 
   /* Chrome/Safari/Opera */
-  &::-webkit-scrollbar {
-    display: none;
-  }
+  display: none;
 }

@@ -5,7 +5,7 @@ import { sprintf } from 'sprintf-js'
 import parseSelector from './utils/parseSelector'
 
 const DICT: string[] = [
-  '[class~=\'focus:%s\']:focus %s',
+  '.focus\\:%s:focus%s %s',
 ]
 
 const plugin = (): Plugin => {
@@ -17,12 +17,12 @@ const plugin = (): Plugin => {
       const selector = rule.selector
 
       for (const pseudoClass of DICT) {
-        const { className, subselector } = parseSelector(selector)
+        const { className, subselector, pseudo } = parseSelector(selector)
 
         if (!className) break
 
         const newRule = rule.clone()
-        const newSelector = sprintf(pseudoClass, className, subselector)
+        const newSelector = sprintf(pseudoClass, className, pseudo, subselector)
         newRule.selector = newSelector
 
         nodesToAppend.push(newRule)

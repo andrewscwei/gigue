@@ -9,7 +9,7 @@ import parseSelector from './utils/parseSelector'
 const CUSTOM_MEDIA_QUERIES = fs.readFileSync(path.join(__dirname, '../lib/media.css'), 'utf-8')
 
 const DICT: Record<string, string[]> = {
-  ['[class~=\'hover:%s\']:hover %s']: ['(hover: hover)'],
+  ['.hover\\:%s:hover%s %s']: ['(hover: hover)'],
   ...mapCustomMediaToDict(postcss.parse(CUSTOM_MEDIA_QUERIES)),
 }
 
@@ -27,10 +27,10 @@ function mapCustomMediaToDict(root: Root): Record<string, string[]> {
 
     return {
       ...out,
-      [`[class~='%s:${name}'] %s`]: [query],
+      [`.%s\\:${name}%s %s`]: [query],
       ...isOrientation ? {} : {
-        [`[class~='%s:${name}:portrait'] %s`]: [query, '(orientation: portrait)'],
-        [`[class~='%s:${name}:landscape'] %s`]: [query, '(orientation: landscape)'],
+        [`.%s\\:${name}\\:portrait%s %s`]: [query, '(orientation: portrait)'],
+        [`.%s\\:${name}\\:landscape%s %s`]: [query, '(orientation: landscape)'],
       },
     }
   }, {})
@@ -43,7 +43,7 @@ const plugin = (): Plugin => {
     postcssPlugin: 'mediaClasses',
     Rule(rule) {
       const selector = rule.selector
-      const { className, subselector } = parseSelector(selector)
+      const { className, subselector, pseudo } = parseSelector(selector)
 
       if (!className) return
 
@@ -53,7 +53,7 @@ const plugin = (): Plugin => {
         const mediaQueries = [...DICT[mediaClass]]
 
         const newRule = rule.clone()
-        const newSelector = sprintf(mediaClass, className, subselector)
+        const newSelector = sprintf(mediaClass, className, pseudo, subselector)
         newRule.selector = newSelector
 
         let firstAtRule: AtRule | undefined

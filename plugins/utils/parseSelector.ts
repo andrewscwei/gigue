@@ -1,22 +1,16 @@
 type Result = {
-  className?: string
-  subselector?: string
+  className: string
+  subselector: string
+  pseudo: string
 }
 
 export default function parseSelector(selector: string): Result {
-  let className: string | undefined
-  let subselector: string | undefined
+  const m0 = /^\.([^ ~+>]+)(.*)$/.exec(selector)
+  const mainSelector = m0?.[1]?.trim() ?? ''
+  const subselector = m0?.[2]?.trim() ?? ''
+  const m1 = /^(.*?[^\\])(:(.*))?$/.exec(mainSelector)
+  const className = m1?.[1]?.trim() ?? ''
+  const pseudo = m1?.[2]?.trim() ?? ''
 
-  if (selector.startsWith('.')) {
-    const matches = /^\.(.*) ?(.*)$/.exec(selector)
-    className = matches?.[1]
-    subselector = matches?.[2]
-  }
-  else if (selector.startsWith('[class~=')) {
-    const matches = /^\[class~=('|")(.*)('|")\] ?(.*)$/.exec(selector)
-    className = matches?.[2]
-    subselector = matches?.[4]
-  }
-
-  return { className, subselector }
+  return { className, subselector, pseudo }
 }

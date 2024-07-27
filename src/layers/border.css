@@ -1,19 +1,19 @@
-[class~='br-0'] {
+.br-0 {
   border-radius: 0;
 }
 
-[class~='br-1/2'] {
+.br-1\/2 {
   border-radius: .5rem;
 }
 
-[class~='br-1'] {
+.br-1 {
   border-radius: 1rem;
 }
 
-[class~='br-2'] {
+.br-2 {
   border-radius: 2rem;
 }
 
-[class~='br-3'] {
+.br-3 {
   border-radius: 3rem;
 }
