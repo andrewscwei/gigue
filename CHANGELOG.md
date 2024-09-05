@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/andrewscwei/gigue/compare/v3.0.0...v3.1.0) (2024-09-05)
+
+
+### Features
+
+* Upgrade dependencies ([6b9aa2e](https://github.com/andrewscwei/gigue/commit/6b9aa2e320b7be59b49576ba4379819d1af84d52))
+
 # [3.0.0](https://github.com/andrewscwei/gigue/compare/v2.11.0...v3.0.0) (2024-07-27)
 
 
